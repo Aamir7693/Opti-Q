@@ -1,0 +1,6 @@
+results/NSGA-II/diversity/diversity3.csv filter=lfs diff=lfs merge=lfs -text
+results/NSGA-II/diversity/diversity4.csv filter=lfs diff=lfs merge=lfs -text
+results/nsga/diversity/diversity3.csv filter=lfs diff=lfs merge=lfs -text
+results/nsga/diversity/diversity4.csv filter=lfs diff=lfs merge=lfs -text
+results/NSGA-I
+[[:space:]][[:space:]]I/diversity/diversity4.csv filter=lfs diff=lfs merge=lfs -text
