@@ -1,0 +1,36 @@
+# FPTAS on Level 2 Data WITH Pruning
+# ====================================
+
+algorithm: "fptas"
+
+data:
+  level: 2
+  query_types:
+    - "Art"
+
+problem:
+  max_nodes: 5
+
+fptas:
+  epsilon: 0.05
+  pruning:
+    enabled: true               # PRUNING ENABLED
+  constraints:
+    allow_empty_predecessors: true
+    extract_only_admissible: true
+
+evaluation:
+  matching:
+    fuzzy_enabled: false
+    exact_enabled: true
+
+output:
+  directory: "results/fptas_level2_with_pruning"
+  formats:
+    csv: true
+    json: true
+
+debug:
+  verbose: true
+
+random_seed: 42

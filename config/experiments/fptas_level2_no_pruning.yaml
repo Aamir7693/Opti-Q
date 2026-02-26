@@ -1,0 +1,47 @@
+# FPTAS on Level 2 Data WITHOUT Pruning
+# =======================================
+# Reproduces run_level2_no_pruning.py experiments
+
+algorithm: "fptas"
+
+data:
+  level: 2
+  path: data/raw/levels/level_2_data.csv
+  query_types:
+    - "Art"
+    - "Geography"
+    - "History"
+    - "Music"
+    - "Other"
+    - "Politics"
+    - "Science and technology"
+    - "Sports"
+    - "TV shows"
+    - "Video games"
+
+problem:
+  max_nodes: 5
+
+fptas:
+  epsilon: 0.05                # Ignored when pruning disabled
+  pruning:
+    enabled: false              # NO PRUNING
+  constraints:
+    allow_empty_predecessors: true
+    extract_only_admissible: true
+
+evaluation:
+  matching:
+    fuzzy_enabled: false        # EXACT MATCHING ONLY
+    exact_enabled: true
+
+output:
+  directory: "results/fptas_no_pruning"
+  formats:
+    csv: true
+    json: true
+
+debug:
+  verbose: true
+
+random_seed: 42

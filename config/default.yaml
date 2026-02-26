@@ -1,0 +1,92 @@
+# Default Configuration for LLM DAG Optimizer
+# ============================================
+
+# Algorithm Selection
+# Options: "fptas" (DP algorithm) or "moqo" (NSGA-II evolutionary algorithm)
+algorithm: "fptas"
+
+# Data Configuration
+data:
+  level: 2                              # Dataset level (0-4)
+  path: null                            # Auto-set if null: data/raw/levels/level_{level}_data.csv
+  query_types:                          # List of query types or ["all"]
+    - "Art"
+
+# Problem Configuration
+problem:
+  max_nodes: 5                          # Maximum nodes in DAG
+  models: [0, 1, 2, 3, 4, 5]           # Available LLM models (5 = blending)
+  query_tokens: 215                     # Query token count
+  blending_prompt_tokens: 26            # Blending prompt tokens
+  context_tokens: 39                    # Context tokens
+
+# FPTAS Configuration (Dynamic Programming with ε-approximation)
+fptas:
+  epsilon: 0.05                         # Approximation factor (5%)
+  pruning:
+    enabled: true                       # Enable ε-dominance pruning
+    method: "epsilon_dominance"         # Pruning method
+  constraints:
+    allow_empty_predecessors: true      # Allow nodes without predecessors
+    extract_only_admissible: true       # Only return single-sink DAGs
+
+# MOQO Configuration (Multi-Objective Optimization - NSGA-II)
+moqo:
+  population_size: 200                  # Population size
+  generations: 200                      # Number of generations
+  operators:
+    crossover_rate: 0.9                 # Crossover probability
+    mutation:
+      add_node_prob: 0.1                # Probability of adding a node
+      flip_edge_prob: 0.3               # Probability of flipping an edge
+      model_mutation_prob: 0.2          # Probability of mutating model assignment
+  deduplication:
+    enabled: true                       # Remove duplicate genotypes
+
+# Evaluation Configuration
+evaluation:
+  matching:
+    fuzzy_enabled: false                # Enable fuzzy matching
+    exact_enabled: true                 # Enable exact matching
+    fuzzy_threshold: 0.75               # Levenshtein similarity threshold
+  qoa:
+    default_value: 0.5                  # Default QoA when no match found
+    estimation_method: "blending_formula"  # QoA estimation method
+  caching:
+    enabled: true                       # Cache evaluation results
+
+# Optimization Features
+optimization:
+  canonicalization: true                # Canonicalize DAG structures (recommended: true)
+  history_indexing: true                # Pre-index historical data
+  parallel: false                       # Enable parallel processing
+  workers: 4                            # Number of parallel workers
+
+# Validation
+validation:
+  blend_constraints: true               # Validate blend constraints
+  dag_validity: true                    # Validate DAG structure
+  strict_mode: true                     # Fail on validation errors (vs warn)
+
+# Output Configuration
+output:
+  directory: "results"                  # Output directory
+  formats:
+    csv: true                           # Save results as CSV
+    json: true                          # Save results as JSON
+    pickle: false                       # Save full objects as pickle
+  visualization:
+    enabled: true                       # Generate visualizations
+    format: "png"                       # Visualization format (png, svg, pdf)
+  save_intermediate: false              # Save intermediate populations/states
+
+# Debug Configuration
+debug:
+  verbose: true                         # Verbose output
+  log_level: "INFO"                     # Logging level (DEBUG, INFO, WARNING, ERROR)
+  profiling: false                      # Enable performance profiling
+  trace_evaluation: false               # Trace evaluation calls
+
+# Reproducibility
+random_seed: 42                         # Random seed (null for random)
+deterministic: true                     # Ensure deterministic execution

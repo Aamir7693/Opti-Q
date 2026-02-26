@@ -1,0 +1,46 @@
+
+# NSGA-II Baseline Configuration
+# ================================
+
+algorithm: "nsga2"
+
+data:
+  level: 2
+  path: data/raw/levels/level_2_data.csv
+  query_types:
+    - "Politics"
+
+problem:
+  max_nodes: 5
+  query_tokens: 215
+  blending_prompt_tokens: 26
+  context_tokens: 39
+
+nsga2:
+  population_size: 200
+  n_generations: 200
+  operators:
+    crossover_rate: 0.9
+    mutation:
+      add_node_prob: 0.1
+      flip_edge_prob: 0.3
+      model_mutation_prob: 0.2
+  deduplication:
+    enabled: true
+
+evaluation:
+  matching:
+    fuzzy_enabled: false
+    exact_enabled: true
+
+output:
+  directory: "results/nsga2_baseline"
+  formats:
+    csv: true
+    json: true
+
+debug:
+  verbose: true
+
+random_seed: 42
+deterministic: true

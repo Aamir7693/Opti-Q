@@ -1,0 +1,50 @@
+# RandomMOQO Baseline Configuration
+# ===================================
+
+algorithm: "moqo"
+
+data:
+  level: 2
+  path: data/raw/levels/level_2_data.csv
+  query_types:
+    - "Art"
+
+problem:
+  max_nodes: 5
+  models: [0, 1, 2, 3, 4]
+  query_tokens: 215
+  blending_prompt_tokens: 26
+  context_tokens: 39
+
+moqo:
+  timeout_seconds: 60                # Time limit for optimization
+  max_iterations: null               # Max iterations (null = use timeout only)
+  use_adaptive_precision: true       # Use paper's α-schedule: α = 25·0.99^(⌊i/25⌋)
+  alpha_start: 1.5                   # Constant alpha if use_adaptive_precision=false
+  alpha_end: 1.0                     # (Unused - kept for backward compatibility)
+  use_subproblem_caching: true       # Use Algorithm 3 DP-like subproblem caching
+
+evaluation:
+  matching:
+    fuzzy_enabled: false
+    exact_enabled: true
+    fuzzy_threshold: 0.75
+  caching:
+    enabled: true
+
+optimization:
+  canonicalization: true
+  history_indexing: true
+
+output:
+  directory: "results/moqo_baseline"
+  formats:
+    csv: true
+    json: true
+    pickle: false
+  save_intermediate: false
+
+debug:
+  verbose: true
+  log_level: INFO
+  profiling: false

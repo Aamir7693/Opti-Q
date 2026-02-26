@@ -1,0 +1,24 @@
+algorithm: nsga2
+
+data:
+  level: 3
+  path: data/raw/levels/level_3_data.csv
+  query_types:
+    - Art
+
+problem:
+  max_nodes: 4
+  models: [0, 1, 2, 3, 4, 5]
+
+moqo:
+  population_size: 50
+  generations: 20
+
+output:
+  directory: results/nsga2_test
+  formats:
+    csv: true
+    json: true
+
+debug:
+  verbose: true

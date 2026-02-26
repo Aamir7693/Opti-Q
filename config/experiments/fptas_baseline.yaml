@@ -1,0 +1,69 @@
+algorithm: fptas
+
+data:
+  level: 4
+  path: data/raw/levels/level_4_data.csv
+  query_types:
+    # Original query types
+    - Art
+    - Geography
+    - History
+    - Music
+    - Other
+    - Politics
+    - Science and technology
+    - Sports
+    - TV shows
+    - Video games
+    # MMLU query types
+    - biology_mmlu
+    - business_mmlu
+    - chemistry_mmlu
+    - computer science_mmlu
+    - health_mmlu
+    - history_mmlu
+    - other_mmlu
+    - philosophy_mmlu
+    - physics_mmlu
+    - psychology_mmlu
+
+problem:
+  max_nodes: 5
+  models: [0, 1, 2, 3, 4]
+  query_tokens: 215
+  blending_prompt_tokens: 26
+  context_tokens: 39
+
+fptas:
+  epsilon: 0.05 # Optimal value from epsilon tuning (94.91% HV, 3.37x speedup)
+  pruning:
+    enabled: true
+    method: epsilon_dominance
+  constraints:
+    allow_empty_predecessors: true
+    extract_only_admissible: true
+
+evaluation:
+  matching:
+    fuzzy_enabled: true
+    exact_enabled: true
+    fuzzy_threshold: 0.75
+  caching:
+    enabled: true
+
+optimization:
+  canonicalization: true
+  history_indexing: true
+
+output:
+  directory: results/fptas_baseline
+  formats:
+    csv: true
+    json: true
+    pickle: false
+  save_intermediate: false
+
+debug:
+  verbose: true
+  log_level: INFO
+  profiling: false
