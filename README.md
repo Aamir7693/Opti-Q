@@ -6,7 +6,7 @@ Multi-objective optimization of LLM execution plans using DP, Hill Climbing and 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
-<img width="2140" height="1920" alt="Arch" src="https://github.com/user-attachments/assets/9e71f873-7033-430b-ac7c-8e1c22d74e62" />
+<img width="1500" height="1200" alt="Arch" src="https://github.com/user-attachments/assets/9e71f873-7033-430b-ac7c-8e1c22d74e62" />
 
 This repository implements three algorithms for optimizing LLM execution plans represented as Directed Acyclic Graphs (DAGs):
 
@@ -26,8 +26,8 @@ The optimizer finds Pareto-optimal trade-offs between:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/llm-dag-optimizer.git
-cd llm-dag-optimizer
+git clone https://github.com/Aamir7693/Opti-Q.git
+cd Opti-Q
 
 # Install dependencies
 pip install -r requirements.txt
