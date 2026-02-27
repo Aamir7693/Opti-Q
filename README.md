@@ -6,6 +6,7 @@ Multi-objective optimization of LLM execution plans using DP, Hill Climbing and 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
+<img width="1500" height="1200" alt="Arch" src="https://github.com/user-attachments/assets/9e71f873-7033-430b-ac7c-8e1c22d74e62" />
 
 This repository implements three algorithms for optimizing LLM execution plans represented as Directed Acyclic Graphs (DAGs):
 
@@ -25,14 +26,12 @@ The optimizer finds Pareto-optimal trade-offs between:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/llm-dag-optimizer.git
-cd llm-dag-optimizer
+git clone https://github.com/Aamir7693/Opti-Q.git
+cd Opti-Q
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Or install in development mode
-pip install -e .
 ```
 
 ### Run DP
@@ -70,37 +69,6 @@ for sol in solutions[:5]:
           f"Latency={sol.latency:.2f}, Energy={sol.energy:.2f}")
 ```
 
-## Repository Structure
-
-```
-llm-dag-optimizer/
-├── config/                     # Configuration files
-│   ├── default.yaml           # Default configuration
-│   └── experiments/           # Pre-configured experiments
-│
-├── data/                       # Data files
-│   └── raw/levels/            # Historical performance data
-│
-├── src/llm_dag_optimizer/     # Source code
-│   ├── core/                  # Core algorithms (FPTAS, MOQO)
-│   ├── structures/            # Data structures (Individual, DAG, Metrics)
-│   ├── config/                # Configuration management
-│   └── ...
-│
-├── experiments/               # Experiment scripts
-│   └── run_fptas.py          # FPTAS runner
-│
-├── tests/                     # Unit and integration tests
-│   ├── test_imports.py
-│   └── test_integration.py
-│
-├── docs/                      # Documentation
-│   ├── QUICK_START.md
-│   ├── configuration.md
-│   └── algorithms/
-│
-└── results/                   # Experiment outputs
-```
 
 ## Configuration
 
