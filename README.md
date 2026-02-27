@@ -6,7 +6,7 @@ Multi-objective optimization of LLM execution plans using DP, Hill Climbing and 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
-<img width="1500" height="1200" alt="Arch" src="https://github.com/user-attachments/assets/9e71f873-7033-430b-ac7c-8e1c22d74e62" />
+<img width="800" height="600" alt="Arch" src="https://github.com/user-attachments/assets/9e71f873-7033-430b-ac7c-8e1c22d74e62" />
 
 This repository implements three algorithms for optimizing LLM execution plans represented as Directed Acyclic Graphs (DAGs):
 
@@ -31,7 +31,15 @@ cd Opti-Q
 
 # Install dependencies
 pip install -r requirements.txt
-
+numpy>=1.20.0
+pandas>=1.3.0
+networkx>=2.6.0
+pyyaml>=5.4.0
+matplotlib>=3.4.0
+tqdm>=4.62.0
+psutil>=5.9.0
+pygmo>=2.19.0
+python-Levenshtein>=0.21.0
 ```
 
 ### Run DP
@@ -44,60 +52,27 @@ python -m experiments.run_dp
 python -m experiments.run_dp --config config/experiments/fptas_level2_no_pruning.yaml
 ```
 
-### Python API
+### Run NSGA-II
 
-```python
-import pandas as pd
-from src.llm_dag_optimizer.core import FPTAS
+```bash
+# Using default configuration
+python -m experiments.run_nsga
 
-# Load historical data
-df = pd.read_csv("data/raw/levels/level_2_data.csv")
+# Using custom configuration
+python -m experiments.run_nsga --config config/experiments/nsga2_baseline.yaml
+```
+### Run Hill Climbing
 
-# Run FPTAS
-solutions = FPTAS(
-    query_type="Art",
-    df_history=df,
-    max_nodes=5,
-    epsilon=0.05,
-    verbose=True,
-    disable_pruning=False,
-)
+```bash
+# Using default configuration
+python -m experiments.run_moqo
 
-# Process results
-for sol in solutions[:5]:
-    print(f"QoA={sol.qoa:.4f}, Cost={sol.cost:.6f}, "
-          f"Latency={sol.latency:.2f}, Energy={sol.energy:.2f}")
+# Using custom configuration
+python -m experiments.run_moqo --config config/experiments/moqo_baseline.yaml
 ```
 
 
-## Configuration
 
-All experiments are configured via YAML files. Example:
-
-```yaml
-algorithm: "fptas"
-
-data:
-  level: 2
-  query_types: ["Art"]
-
-problem:
-  max_nodes: 5
-
-fptas:
-  epsilon: 0.05
-  pruning:
-    enabled: true
-
-output:
-  directory: "results"
-  formats:
-    csv: true
-    json: true
-
-random_seed: 42
-```
-## Requirements
 
 
 
