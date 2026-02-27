@@ -44,29 +44,23 @@ python -m experiments.run_dp
 python -m experiments.run_dp --config config/experiments/fptas_level2_no_pruning.yaml
 ```
 
-### Python API
+### Run NSGA-II
 
-```python
-import pandas as pd
-from src.llm_dag_optimizer.core import FPTAS
+```bash
+# Using default configuration
+python -m experiments.run_nsga
 
-# Load historical data
-df = pd.read_csv("data/raw/levels/level_2_data.csv")
+# Using custom configuration
+python -m experiments.run_nsga --config config/experiments/nsga2_baseline.yaml
+```
+### Run Hill Climbing
 
-# Run FPTAS
-solutions = FPTAS(
-    query_type="Art",
-    df_history=df,
-    max_nodes=5,
-    epsilon=0.05,
-    verbose=True,
-    disable_pruning=False,
-)
+```bash
+# Using default configuration
+python -m experiments.run_moqo
 
-# Process results
-for sol in solutions[:5]:
-    print(f"QoA={sol.qoa:.4f}, Cost={sol.cost:.6f}, "
-          f"Latency={sol.latency:.2f}, Energy={sol.energy:.2f}")
+# Using custom configuration
+python -m experiments.run_moqo --config config/experiments/moqo_baseline.yaml
 ```
 
 
