@@ -31,7 +31,15 @@ cd Opti-Q
 
 # Install dependencies
 pip install -r requirements.txt
-
+numpy>=1.20.0
+pandas>=1.3.0
+networkx>=2.6.0
+pyyaml>=5.4.0
+matplotlib>=3.4.0
+tqdm>=4.62.0
+psutil>=5.9.0
+pygmo>=2.19.0
+python-Levenshtein>=0.21.0
 ```
 
 ### Run DP
