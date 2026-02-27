@@ -32,8 +32,6 @@ cd Opti-Q
 # Install dependencies
 pip install -r requirements.txt
 
-# Or install in development mode
-pip install -e .
 ```
 
 ### Run DP
