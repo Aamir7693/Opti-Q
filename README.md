@@ -49,7 +49,7 @@ python-Levenshtein>=0.21.0
 python -m experiments.run_dp
 
 # Using custom configuration
-python -m experiments.run_dp --config config/experiments/fptas_level2_no_pruning.yaml
+python -m experiments.run_dp --config config/experiments/dp_level2_no_pruning.yaml
 ```
 
 ### Run NSGA-II
@@ -65,10 +65,10 @@ python -m experiments.run_nsga --config config/experiments/nsga2_baseline.yaml
 
 ```bash
 # Using default configuration
-python -m experiments.run_moqo
+python -m experiments.run_hc
 
 # Using custom configuration
-python -m experiments.run_moqo --config config/experiments/moqo_baseline.yaml
+python -m experiments.run_hc --config config/experiments/hc_baseline.yaml
 ```
 
 
