@@ -1,6 +1,6 @@
 # Opti-Q: A Constraint-Based Optimization Framework for Multi-LLM Question Planning
 
-Multi-objective optimization of LLM execution plans using FPTAS and MOQO (NSGA-II) algorithms.
+Multi-objective optimization of LLM execution plans using DP, Hill Climbing and NSGA-II.
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -9,8 +9,8 @@ Multi-objective optimization of LLM execution plans using FPTAS and MOQO (NSGA-I
 
 This repository implements three algorithms for optimizing LLM execution plans represented as Directed Acyclic Graphs (DAGs):
 
-1. **FPTAS (DP)**: Fully Polynomial-Time Approximation Scheme using dynamic programming
-2. **MOQO (Hill Climbing)**: Multi-Objective Query Optimization using hill climbing with Pareto dominance
+1. **DP**: Fully Polynomial-Time Approximation Scheme using dynamic programming
+2. **Hill Climbing**: Multi-Objective Query Optimization using hill climbing with Pareto dominance
 3. **NSGA-II**: Multi-objective evolutionary algorithm using non-dominated sorting
 
 The optimizer finds Pareto-optimal trade-offs between:
@@ -230,15 +230,7 @@ fptas:
   epsilon: 0.01  # 1% approximation (slower but more accurate)
 ```
 
-## Results
 
-Results are saved in configured output directory:
-
-```
-results/
-├── fptas_results_20260129_011103.csv
-└── fptas_results_20260129_011103.json
-```
 
 ### Sample Output
 
@@ -248,18 +240,7 @@ Art,661,"[4, 3, 0, 5, 0]",0.000097,80.36,134.38,0.7993
 Art,667,"[4, 0, 5, 0, 5]",0.000124,82.15,140.22,0.7709
 ```
 
-## Testing
 
-```bash
-# Run import tests
-python tests/test_imports.py
-
-# Run integration tests
-python tests/test_integration.py
-
-# Or use pytest (if installed)
-pytest tests/
-```
 
 ## Documentation
 
@@ -268,53 +249,13 @@ pytest tests/
 - [Algorithm Documentation](docs/algorithms/)
 - [API Documentation](docs/api/)
 
-## Project History
 
-This repository was restructured on **January 29, 2026** for improved:
-- Modularity and maintainability
-- Configuration management
-- Testing and validation
-- Documentation
-- Paper submission readiness
-
-**Original backup**: `NSGA-II-backup-20260129-005834.zip` (4.3 MB)
-
-## Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@article{yourpaper2026,
-  title={Multi-Objective Optimization of LLM Execution Plans},
-  author={Your Name},
-  journal={Conference/Journal Name},
-  year={2026}
-}
-```
 
 ## License
 
 MIT License - see [LICENSE](LICENSE) file for details
 
-## Contributing
 
-Contributions welcome! Please:
-1. Fork the repository
-2. Create a feature branch
-3. Add tests for new features
-4. Submit a pull request
-
-## Contact
-
-- **Author**: Your Name
-- **Email**: your.email@example.com
-- **GitHub**: https://github.com/yourusername/llm-dag-optimizer
-
-## Acknowledgments
-
-- FPTAS algorithm inspired by classical approximation schemes
-- MOQO based on NSGA-II evolutionary framework
-- Historical performance data collection methodology
 
 ---
 
