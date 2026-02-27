@@ -1,4 +1,4 @@
-# LLM DAG Optimizer
+# Opti-Q: A Constraint-Based Optimization Framework for Multi-LLM Question Planning
 
 Multi-objective optimization of LLM execution plans using FPTAS and MOQO (NSGA-II) algorithms.
 
