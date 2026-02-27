@@ -39,10 +39,10 @@ pip install -e .
 
 ```bash
 # Using default configuration
-python -m experiments.run_fptas
+python -m experiments.run_dp
 
 # Using custom configuration
-python -m experiments.run_fptas --config config/experiments/fptas_level2_no_pruning.yaml
+python -m experiments.run_dp --config config/experiments/fptas_level2_no_pruning.yaml
 ```
 
 ### Python API
@@ -129,6 +129,9 @@ output:
 
 random_seed: 42
 ```
+## Requirements
+
+
 
 
 
