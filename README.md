@@ -19,15 +19,6 @@ The optimizer finds Pareto-optimal trade-offs between:
 - **Energy**: Energy consumption (millijoules)
 - **QoA**: Quality of Answer (0-1)
 
-## Key Features
-
-✅ **Modular Architecture**: Clean separation of concerns
-✅ **Configuration System**: 38+ toggles via YAML files
-✅ **Reproducible**: Configurable random seeds and deterministic mode
-✅ **Well-Tested**: Unit tests and integration tests included
-✅ **Documented**: Comprehensive documentation and examples
-✅ **Professional Structure**: Ready for paper submission
-
 ## Quick Start
 
 ### Installation
@@ -44,7 +35,7 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-### Run FPTAS
+### Run DP
 
 ```bash
 # Using default configuration
@@ -139,140 +130,9 @@ output:
 random_seed: 42
 ```
 
-**38+ Configuration Toggles Available:**
-- Algorithm selection (FPTAS/MOQO/NSGA-II)
-- Data level (0-4)
-- Pruning on/off (FPTAS)
-- Timeout (MOQO)
-- Population size, generations (NSGA-II)
-- Fuzzy matching on/off
-- Evaluation caching
-- Output formats
-- Debug options
-- And more...
-
-See [docs/configuration.md](docs/configuration.md) for complete reference.
-
-## Algorithms
-
-### 1. FPTAS (Dynamic Programming)
-
-- **Type**: Exact approximation scheme
-- **Approach**: Bottom-up dynamic programming with ε-dominance pruning
-- **Guarantees**: (1+ε)-approximation of Pareto frontier
-- **Best for**: Accuracy, complete enumeration
-
-**Key Parameters:**
-- `epsilon`: Approximation factor (e.g., 0.05 = 5%)
-- `pruning.enabled`: Toggle ε-dominance pruning
-- `max_nodes`: Maximum nodes in DAG
-
-### 2. MOQO (Hill Climbing)
-
-- **Type**: Hill climbing with Pareto dominance
-- **Approach**: Random restarts + adaptive precision climb
-- **Components**: ParetoClimb, ApproximateFrontiers
-- **Best for**: Fast results, time-bounded optimization
-
-**Key Parameters:**
-- `timeout_seconds`: Time budget (e.g., 60s)
-- `max_nodes`: Maximum nodes in DAG
-- `alpha`: Precision parameter
-
-### 3. NSGA-II (Evolutionary Algorithm)
-
-- **Type**: Population-based multi-objective evolutionary
-- **Approach**: Non-dominated sorting + crowding distance
-- **Operators**: Crossover, mutation (add node, flip edge, change model)
-- **Best for**: Diverse solutions, exploration
-
-**Key Parameters:**
-- `population_size`: Size of population (e.g., 200)
-- `generations`: Number of generations (e.g., 200)
-- `crossover_rate`: Crossover probability
-- `mutation.*`: Mutation probabilities
-
-**Comparison:**
-| Algorithm | Speed | Quality | Diversity | Best Use Case |
-|-----------|-------|---------|-----------|---------------|
-| FPTAS (DP) | Slow | (1+ε)-optimal | High | Accuracy |
-| MOQO (Hill) | Fast | Good | Low | Speed |
-| NSGA-II | Medium | Good | High | Balance |
-
-See [docs/algorithms/ALGORITHMS_OVERVIEW.md](docs/algorithms/ALGORITHMS_OVERVIEW.md) for detailed comparison.
-
-## Example Experiments
-
-### Experiment 1: Compare Pruning Impact
-
-```bash
-# Without pruning
-python -m experiments.run_fptas --config config/experiments/fptas_level2_no_pruning.yaml
-
-# With pruning
-python -m experiments.run_fptas --config config/experiments/fptas_level2_with_pruning.yaml
-```
-
-### Experiment 2: Multi-Query Batch Processing
-
-```yaml
-data:
-  query_types:
-    - "Art"
-    - "Science and technology"
-    - "History"
-```
-
-### Experiment 3: High Precision
-
-```yaml
-fptas:
-  epsilon: 0.01  # 1% approximation (slower but more accurate)
-```
 
 
 
-### Sample Output
-
-```csv
-query_type,struct_id,assignment,cost,latency,energy,qoa
-Art,661,"[4, 3, 0, 5, 0]",0.000097,80.36,134.38,0.7993
-Art,667,"[4, 0, 5, 0, 5]",0.000124,82.15,140.22,0.7709
-```
 
 
 
-## Documentation
-
-- [Quick Start Guide](docs/QUICK_START.md)
-- [Configuration Guide](docs/configuration.md)
-- [Algorithm Documentation](docs/algorithms/)
-- [API Documentation](docs/api/)
-
-
-
-## License
-
-MIT License - see [LICENSE](LICENSE) file for details
-
-
-
----
-
-**Version**: 1.0.0
-**Last Updated**: January 29, 2026
-**Status**: Production-ready for paper submission
-running---
-python experiments/run_dp.py --queries Art --max-k 2 --delta 0.05 --only-delta --level 2
-New test-set files (all scripts)
-
-  Each script now produces a second CSV after the main solutions CSV:
-  ┌─────────────┬────────────────────────────┬───────────────────────────┐
-  │   Script    │       Solutions CSV        │       Test-set CSV        │
-  ├─────────────┼────────────────────────────┼───────────────────────────┤
-  │ run_nsga.py │ results/nsga_solutions.csv │ results/nsga_test_set.csv │
-  ├─────────────┼────────────────────────────┼───────────────────────────┤
-  │ run_dp.py   │ results/dp_solutions.csv   │ results/dp_test_set.csv   │
-  ├─────────────┼────────────────────────────┼───────────────────────────┤
-  │ run_moqo.py │ results/moqo_solutions.csv │ results/moqo_test_set.csv │
-  └─────────────┴────────────────────────────┴───────────────────────────┘
