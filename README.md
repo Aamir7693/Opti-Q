@@ -69,37 +69,6 @@ for sol in solutions[:5]:
           f"Latency={sol.latency:.2f}, Energy={sol.energy:.2f}")
 ```
 
-## Repository Structure
-
-```
-llm-dag-optimizer/
-├── config/                     # Configuration files
-│   ├── default.yaml           # Default configuration
-│   └── experiments/           # Pre-configured experiments
-│
-├── data/                       # Data files
-│   └── raw/levels/            # Historical performance data
-│
-├── src/llm_dag_optimizer/     # Source code
-│   ├── core/                  # Core algorithms (FPTAS, MOQO)
-│   ├── structures/            # Data structures (Individual, DAG, Metrics)
-│   ├── config/                # Configuration management
-│   └── ...
-│
-├── experiments/               # Experiment scripts
-│   └── run_fptas.py          # FPTAS runner
-│
-├── tests/                     # Unit and integration tests
-│   ├── test_imports.py
-│   └── test_integration.py
-│
-├── docs/                      # Documentation
-│   ├── QUICK_START.md
-│   ├── configuration.md
-│   └── algorithms/
-│
-└── results/                   # Experiment outputs
-```
 
 ## Configuration
 
