@@ -64,34 +64,7 @@ python -m experiments.run_moqo --config config/experiments/moqo_baseline.yaml
 ```
 
 
-## Configuration
 
-All experiments are configured via YAML files. Example:
-
-```yaml
-algorithm: "fptas"
-
-data:
-  level: 2
-  query_types: ["Art"]
-
-problem:
-  max_nodes: 5
-
-fptas:
-  epsilon: 0.05
-  pruning:
-    enabled: true
-
-output:
-  directory: "results"
-  formats:
-    csv: true
-    json: true
-
-random_seed: 42
-```
-## Requirements
 
 
 
