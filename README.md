@@ -1,6 +1,6 @@
 # Opti-Q: A Constraint-Based Optimization Framework for Multi-LLM Question Planning
 
-Multi-objective optimization of LLM execution plans using DP, Hill Climbing and NSGA-II.
+Multi-objective optimization of multi-LLM execution plans via DP, Hill Climbing, and NSGA-II
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
