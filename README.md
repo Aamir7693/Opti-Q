@@ -38,7 +38,7 @@ pyyaml>=5.4.0
 matplotlib>=3.4.0
 tqdm>=4.62.0
 psutil>=5.9.0
-pygmo>=2.19.0
+pymoo
 python-Levenshtein>=0.21.0
 ```
 
