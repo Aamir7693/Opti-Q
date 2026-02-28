@@ -51,3 +51,5 @@ results/*_backup.csv
 # Backup files
 *_backup.py
 *.bak
+*.ipynb
+!scripts/*.ipynb
