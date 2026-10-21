@@ -1,0 +1,2 @@
+source_file,method,n,valid_grades,correct,incorrect,not_attempted,grader_error,correct_rate,incorrect_rate,not_attempted_rate,accuracy_given_attempted,simpleqa_f1
+simpleqa_budget_3_100_4runs.csv,simpleqa_budget_3_100_4runs,300,300,39,253,8,0,0.13,0.8433333333333334,0.02666666666666667,0.13356164383561644,0.1317567567567568

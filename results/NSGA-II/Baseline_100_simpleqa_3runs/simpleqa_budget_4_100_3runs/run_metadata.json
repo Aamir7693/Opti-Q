@@ -1,0 +1,18 @@
+{
+  "source_file": "simpleqa_budget_4_100_4runs.csv",
+  "grader_model": "gpt-4.1",
+  "prompt_hash": "063c04ea798f91c4706c050b66a721afc77a458b12d8f0d72286d4b0eee8a3ee",
+  "prompt_source_url": "https://raw.githubusercontent.com/openai/simple-evals/main/simpleqa_eval.py",
+  "processed_at_utc": "2026-10-16T19:57:39.550786+00:00",
+  "normalized_rows": 300,
+  "mapping": {
+    "question": "Original_Query",
+    "target": "gold",
+    "prediction": "prediction",
+    "method": null,
+    "cosine": null
+  },
+  "high_cosine_threshold": 0.8,
+  "cache_used": true,
+  "force_rerun": false
+}
