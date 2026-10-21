@@ -1,0 +1,2 @@
+source_file,method,n,valid_grades,correct,incorrect,not_attempted,grader_error,correct_rate,incorrect_rate,not_attempted_rate,accuracy_given_attempted,simpleqa_f1
+SimpleQA_MOQO_budget_3.csv,SimpleQA_MOQO_budget_3,300,297,20,267,10,3,0.06734006734006734,0.898989898989899,0.03367003367003367,0.06968641114982578,0.0684931506849315
