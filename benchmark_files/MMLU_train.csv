@@ -1,0 +1,1290 @@
+Original_Query,Query_Type,Annotated_Answer,Assignment_0_Model_Name,Assignment_0_Answer,Assignment_1_Model_Name,Assignment_1_Answer,Assignment_2_Model_Name,Assignment_2_Answer,Assignment_3_Model_Name,Assignment_3_Answer,Assignment_4_Model_Name,Assignment_4_Answer,Assignment_5_Model_Name,Assignment_5_Answer
+"Question: Tay-Sachs is a disease caused by a recessive allele. Individuals with the genetic disorder usually do not survive more than a few years, and thus are not able to reproduce and pass on the gene. What would explain how this allele and its associated disease is preserved in the population?
+
+A) Occasionally the gene will instead increase the fitness of the individual.
+B) Tay-Sachs is asymptomatic in people who are homozygous recessive.
+C) The recessive allele is actually beneficial in certain environments.
+D) The disease increases the fertility of those who carry it.
+E) Tay-Sachs is a dominant disease, so carriers will show symptoms.
+F) Spontaneous mutation converts the dominant allele to the recessive form.
+G) Heterozygous individuals will show no symptoms.
+H) The gene for Tay-Sachs also provides resistance to another disease.
+I) The disease can be cured, so individuals with the disorder are able to reproduce.
+J) The allele is not preserved and is actually decreasing in frequency.
+
+Above are multiple-choice questions (with answers) related to biology.
+Simply respond with 'The answer is /option letter and value/.'",biology_mmlu,G,gemma2:27b,H,llama3-chatqa:8b,C,mistral:7b,G,qwen2.5:14b,G,phi4:14b,H,gemma3:27b,G
+"Question: During the courtship of the common tern, the male presents afish to another tern. Account for this behavior and discuss whycourtship in general may benecesaryfor reproduction.
+
+A) Courtship is only for sexual identification
+B) Courtship is a behavior exclusive to the common tern and not observed in other species.
+C) Courtship is a ritual that determines the healthiest environment for raising offspring.
+D) Courtship serves as a means of communication, sexual identification, species identification, and in some cases, a necessary condition for egg production.
+E) Courtship is a method used by the common tern to establish territory rather than attract a mate.
+F) Courtship serves no purpose in animal behavior
+G) Courtship is purely a competitive display to deter other potential mates.
+H) Courtship is only necessary for egg production
+I) Courtship behavior is a learned behavior from observing other species and not innate.
+J) Courtship is only necessary to stimulate physical development in the adult terns.
+
+Above are multiple-choice questions (with answers) related to biology.
+Simply respond with 'The answer is /option letter and value/.'",biology_mmlu,D,gemma2:27b,D,llama3-chatqa:8b,D,mistral:7b,D,qwen2.5:14b,D,phi4:14b,D,gemma3:27b,D
+"Question: An embryologist studying the development of a vertebrate organism from the zygote stage to fetus would be justified in drawing which of the following conclusions?
+
+A) The development of a vertebrate organism from the zygote stage to fetus does not follow a consistent pattern.
+B) The development of a vertebrate organism from the zygote stage to fetus displays a random pattern of evolutionary history.
+C) The zygote stage of a vertebrate organism is identical to the fetus stage.
+D) Ontogeny recapitulates phylogeny.
+E) Early embryos display identical features of their class and order, but not their species.
+F) An early human embryo has features in common with early fish and avian embryos.
+G) Early embryos display identical features of their class, order, and species.
+H) A human embryo displays features of adult fish and birds in the course of its development.
+I) An early human embryo has features that are identical to adult fish and avian features.
+J) A vertebrate organism develops identical features of its class, order, and species only during the fetus stage.
+
+Above are multiple-choice questions (with answers) related to biology.
+Simply respond with 'The answer is /option letter and value/.'",biology_mmlu,D,gemma2:27b,F,llama3-chatqa:8b,D,mistral:7b,E,qwen2.5:14b,F,phi4:14b,F,gemma3:27b,D
+"Question: What is meant by a gene pool, balanced polymorphism, and genetic load?
+
+A) Gene pool is the total number of organisms in a population; balanced polymorphism is a genetic imbalance; genetic load is the genetic weight of an organism.
+B) Gene pool refers to the physical pool where genes are stored; balanced polymorphism is the imbalance of allele frequencies; genetic load is the amount of genetic information carried by an organism.
+C) Gene pool is the sum total of genes in a population; balanced polymorphism is when different forms of a genotype are maintained in equilibrium over time; genetic load is the reduction in average fitness due to presence of suboptimal forms.
+D) Gene pool is the total genetic information in the gametes of a population; balanced polymorphism is the consistent occurrence of a single allele; genetic load is the genetic diversity within a species.
+E) Gene pool is the collection of genes in a single organism; balanced polymorphism is the variation of a single gene; genetic load is the number of genes in an organism.
+F) Gene pool refers to a single gene; balanced polymorphism refers to a dominance of one gene; genetic load refers to the genetic burden of an organism.
+G) Gene pool is the total number of alleles in a population; balanced polymorphism is the maintenance of two or more alleles at a locus by natural selection; genetic load is the proportion of individuals in a population with genetic defects.
+H) Gene pool is the diversity of genes in a population; balanced polymorphism is the dominance of a single gene; genetic load is the genetic capacity of an organism.
+I) Gene pool is the sum of all genetic variations in a closed environment; balanced polymorphism is the equal representation of all alleles in a population; genetic load is the accumulated genetic mutations in a population.
+J) Gene pool is the set of all genetic traits in a biological community; balanced polymorphism is when one allele is favored over others; genetic load is the genetic contribution of an organism to its offspring.
+
+Above are multiple-choice questions (with answers) related to biology.
+Simply respond with 'The answer is /option letter and value/.'",biology_mmlu,C,gemma2:27b,C,llama3-chatqa:8b,C,mistral:7b,G,qwen2.5:14b,C,phi4:14b,C,gemma3:27b,C
+"Question: What are some of the cues used by animal in migrating?
+
+A) Animals use the sound of the ocean waves for directional cues in migration.
+B) Animals rely solely on memory from previous migrations.
+C) Animals migrate based on the patterns of the stars alone.
+D) Animals follow changes in air pressure for migration.
+E) Animals use temperature changes for migration.
+F) Animals use changes in water salinity for migration.
+G) Animals use taste for migration.
+H) Animals use the position of the moon exclusively for migration.
+I) Animals use visual landmarks for migration.
+J) Animals use cues such as scent, celestial clues, and the earth's magnetic field for migration.
+
+Above are multiple-choice questions (with answers) related to biology.
+Simply respond with 'The answer is /option letter and value/.'",biology_mmlu,J,gemma2:27b,J,llama3-chatqa:8b,J,mistral:7b,J,qwen2.5:14b,J,phi4:14b,J,gemma3:27b,J
+"Question: What prevents the stomach from being digested by itsown secretions?
+
+A) The stomach has a high permeability to hydrogen ions
+B) The presence of beneficial bacteria that neutralize stomach acid
+C) The stomach lining is replaced every month
+D) The stomach lining secretes digestive enzymes only when food is present
+E) The production of bile in the stomach neutralizes the digestive acids
+F) A thick layer of muscle tissue that is resistant to digestive enzymes and acids
+G) The stomach is protected by a layer of fat
+H) The mucus layer, the permeability of the membranes and the continual replacement of the cells comprising the lining all help protect the stomach from being digested by its own secretions.
+I) The stomach secretes a special hormone that prevents digestion of its own tissues
+J) The stomach contents are too acidic for the enzymes to function properly
+
+Above are multiple-choice questions (with answers) related to biology.
+Simply respond with 'The answer is /option letter and value/.'",biology_mmlu,H,gemma2:27b,H,llama3-chatqa:8b,H,mistral:7b,H,qwen2.5:14b,H,phi4:14b,H,gemma3:27b,H
+"Question: In what way does Lamarck's theory of acquired characteristicsnot agree with present evidence?
+
+A) Acquired characteristics are inherited through a blending of parental traits
+B) Acquired characteristics are inherited but do not influence evolution
+C) Acquired characteristics are inherited randomly, regardless of their use
+D) Acquired characteristics cannot be inherited
+E) Acquired characteristics are inherited based on use and disuse
+F) Acquired characteristics are only inherited if they occur in the germ cells
+G) Acquired characteristics are passed on to the next generation through environmental influence
+H) Acquired characteristics are always inherited
+I) Acquired characteristics do not exist
+J) Acquired characteristics can be inherited
+
+Above are multiple-choice questions (with answers) related to biology.
+Simply respond with 'The answer is /option letter and value/.'",biology_mmlu,D,gemma2:27b,D,llama3-chatqa:8b,E,mistral:7b,D,qwen2.5:14b,D,phi4:14b,D,gemma3:27b,D
+"Question: The thymus gland is a two-lobed, glandular-appearing structure located in the upper region of the chest just behind the sternum. What are the two principal functions that have been attributed to this gland?
+
+A) Synthesizes vitamin D and aids in the digestion of fats
+B) Secretes bile to help in digestion and stores nutrients
+C) Acts as the primary site for the synthesis of blood platelets and filters out old red blood cells
+D) Produces white blood cells and regulates body temperature
+E) Produces antibodies for immune response and generates heat to maintain body temperature
+F) Controls the body's metabolism and regulates calcium levels
+G) Regulates the body's salt and water balance and helps control blood volume
+H) Provides the initial supply of lymphocytes for other lymphoid areas and releases the hormone thymosin which stimulates the differentiation of incipient plasma cells in the lymphoid tissues
+I) Produces hormones that regulate growth and development, and controls blood pressure
+J) Produces insulin and glucagon to regulate blood sugar levels
+
+Above are multiple-choice questions (with answers) related to biology.
+Simply respond with 'The answer is /option letter and value/.'",biology_mmlu,H,gemma2:27b,H,llama3-chatqa:8b,H,mistral:7b,H,qwen2.5:14b,H,phi4:14b,H,gemma3:27b,H
+"Question: Albinism, a condition characterized by a lack of pigment in the skin, eyes, and hair, occurs in certain populations with a frequency of 0.00005. Assuming albinism is determined by a single recessive gene, a (a) what is the probability of an albino resulting from a cross between an albino and an individual of a normal phenotype? (b) what proportion of albinos havephenotypicallynormal parents?
+
+A) 0.9%, 0.70
+B) 1.0%, 0.75
+C) 0.7%, 1.2
+D) 1.2%, 0.85
+E) 0.7%, 0.99
+F) 0.5%, 1.1
+G) 0.25%, 0.99
+H) 0.5%, 0.90
+I) 0.8%, 0.95
+J) 1.5%, 0.80
+
+Above are multiple-choice questions (with answers) related to biology.
+Simply respond with 'The answer is /option letter and value/.'",biology_mmlu,E,gemma2:27b,B,llama3-chatqa:8b,G,mistral:7b,G,qwen2.5:14b,B,phi4:14b,A,gemma3:27b,D
+"Question: Why does milk \textquotedblleftspoil\textquotedblright when kept in a refrigerator?
+
+A) Enzymatic reactions with oxygen
+B) Lactose crystallization
+C) Loss of refrigeration power over time
+D) mesophiles
+E) Natural separation of milk components without bacterial influence
+F) Acidification from exposure to light
+G) psychrophilic bacteria
+H) thermophiles
+I) chemical reactions
+J) Contamination from other food items
+
+Above are multiple-choice questions (with answers) related to biology.
+Simply respond with 'The answer is /option letter and value/.'",biology_mmlu,G,gemma2:27b,G,llama3-chatqa:8b,A,mistral:7b,C,qwen2.5:14b,D,phi4:14b,G,gemma3:27b,G
+"Question: Compute (1 / 3) % of 1,109.
+
+A) 0.553
+B) 0.3697
+C) 7.218
+D) 3.6597
+E) 1.109
+F) 4.219
+G) 6.993
+H) 11.09
+I) 2.8145
+J) 5.0948
+
+Above are multiple-choice questions (with answers) related to business.
+Simply respond with 'The answer is /option letter and value/.'",business_mmlu,D,gemma2:27b,D,llama3-chatqa:8b,B,mistral:7b,I,qwen2.5:14b,D,phi4:14b,B,gemma3:27b,B
+"Question: What is the effective rate of yield of a stock selling for $60 and paying an annual dividend of $2?
+
+A) 2(1/2)%
+B) 3(1/3)%
+C) 4%
+D) 5%
+
+Above are multiple-choice questions (with answers) related to business.
+Simply respond with 'The answer is /option letter and value/.'",business_mmlu,B,gemma2:27b,C,llama3-chatqa:8b,B,mistral:7b,C,qwen2.5:14b,B,phi4:14b,B,gemma3:27b,C
+"Question: The premium rate on homeowners insurance for the ABC Insurance Company is $.96 per $100. In addition, ABC allows a discount of 20% of the premium if the homeowner accepts a policy containing a $250 deductible clause. Calculate the premium for a homeowners policy for $27,000 containing a $250 deductible clause.
+
+A) $51.84
+B) $220
+C) $184.80
+D) $259.20
+E) $145.20
+F) $207
+G) $246.40
+H) $102
+I) $123.84
+J) $165.60
+
+Above are multiple-choice questions (with answers) related to business.
+Simply respond with 'The answer is /option letter and value/.'",business_mmlu,F,gemma2:27b,E,llama3-chatqa:8b,C,mistral:7b,I,qwen2.5:14b,C,phi4:14b,C,gemma3:27b,C
+"Question: How do you describe a work group that comprises workers with demarcated tasks and distant line managers?
+
+A) Interdependent
+B) Co-dependent
+C) Cohesive
+D) Integrated
+E) Synergistic
+F) Independent
+G) Collaborative
+H) Hierarchical
+I) Dependent
+
+Above are multiple-choice questions (with answers) related to business.
+Simply respond with 'The answer is /option letter and value/.'",business_mmlu,F,gemma2:27b,H,llama3-chatqa:8b,A,mistral:7b,G,qwen2.5:14b,H,phi4:14b,H,gemma3:27b,F
+"Question: Paul owed $56.30 plus a 3% sales tax to a sporting goods store. The terms were (2/10), (n/30). If Paul paid one week after the agreement, how much did he pay?
+
+A) $57.99
+B) $60.35
+C) $58.65
+D) $59.50
+E) $57.50
+F) $56.86
+G) $54.00
+H) $58.12
+I) $55.65
+J) $55.17
+
+Above are multiple-choice questions (with answers) related to business.
+Simply respond with 'The answer is /option letter and value/.'",business_mmlu,F,gemma2:27b,D,llama3-chatqa:8b,C,mistral:7b,C,qwen2.5:14b,B,phi4:14b,C,gemma3:27b,A
+"Question: Mrs. Kaplan purchased a $200 coffee table on an installment plan for $35 down and 9 monthly payments of $20. Find the annual Interest rate she paid.
+
+A) 15%
+B) 21.8%
+C) 17.5%
+D) 19.2%
+E) 30%
+F) 25%
+G) 24%
+H) 27.3%
+I) 22.5%
+J) 20%
+
+Above are multiple-choice questions (with answers) related to business.
+Simply respond with 'The answer is /option letter and value/.'",business_mmlu,B,gemma2:27b,B,llama3-chatqa:8b,C,mistral:7b,I,qwen2.5:14b,J,phi4:14b,G,gemma3:27b,B
+"Question: An automobile that cost $3,000 four years ago is now worth $1,000. What is the average yearly depreciation?
+
+A) $300
+B) $2,000
+C) $250
+D) $1,000
+E) $800
+F) $400
+G) $500
+H) $600
+I) $750
+J) $1,250
+
+Above are multiple-choice questions (with answers) related to business.
+Simply respond with 'The answer is /option letter and value/.'",business_mmlu,G,gemma2:27b,C,llama3-chatqa:8b,B,mistral:7b,G,qwen2.5:14b,F,phi4:14b,G,gemma3:27b,A
+"Question: The Daily Planet's rate for one agate line of print is $4. It has a circulation of 2 million. What is themillinerate?
+
+A) $6.00
+B) $1.50
+C) $5.00
+D) $4.00
+E) $0.20
+F) $0.50
+G) $2.50
+H) $2.00
+I) $1.00
+J) $3.00
+
+Above are multiple-choice questions (with answers) related to business.
+Simply respond with 'The answer is /option letter and value/.'",business_mmlu,H,gemma2:27b,E,llama3-chatqa:8b,D,mistral:7b,H,qwen2.5:14b,E,phi4:14b,A,gemma3:27b,E
+"Question: What is the tax on a store with an assessed valuation of $6,640, if the tax rate is $3.87 per $100 and an additional charge of 2% of the tax is added as a collector's fee?
+
+A) $256.97
+B) $275.00
+C) $300.00
+D) $262.11
+E) $258.00
+F) $5.14
+G) $268.11
+H) $270.55
+I) $245.89
+J) $280.13
+
+Above are multiple-choice questions (with answers) related to business.
+Simply respond with 'The answer is /option letter and value/.'",business_mmlu,D,gemma2:27b,D,llama3-chatqa:8b,G,mistral:7b,D,qwen2.5:14b,D,phi4:14b,G,gemma3:27b,A
+"Question: Suppose a stock has the following information. It is listed on the London stock exchange and operates throughout Europe. The yield on a UK 10 year treasury is 2.8%. The stock in question will earn 8.6% as per historical data. The Beta for the stock is 1.4, i.e., it is 140% volatile to the changes in the general stock market. What is the expected rate of return?
+
+A) 5.6
+B) 2.8
+C) 1.4
+D) 10.92
+E) 7.98
+F) 6.2
+G) 9.4
+H) 8.6
+I) 11.76
+J) 12.34
+
+Above are multiple-choice questions (with answers) related to business.
+Simply respond with 'The answer is /option letter and value/.'",business_mmlu,D,gemma2:27b,D,llama3-chatqa:8b,H,mistral:7b,H,qwen2.5:14b,D,phi4:14b,D,gemma3:27b,I
+"Question: What is the mass of 1 liter of carbon monoxide (CO) at standard temperature and pressure (STP).
+
+A) 1.67 g
+B) 1.80 g
+C) 1.14 g
+D) 2.20 g
+E) 0.92 g
+F) 1.5 g
+G) 1.0 g
+H) 0.86 g
+I) 2.0 g
+J) 1.25 g
+
+Above are multiple-choice questions (with answers) related to chemistry.
+Simply respond with 'The answer is /option letter and value/.'",chemistry_mmlu,J,gemma2:27b,A,llama3-chatqa:8b,A,mistral:7b,G,qwen2.5:14b,C,phi4:14b,B,gemma3:27b,A
+"Question: A sulfuric acid solution has a density of 1.8 g/ml and is 90% H_2SO_4 by weight. What weight of H_2SO_4, is present in 1000 ml of the solution? What is themolarityof the solution? the normality?
+
+A) 1260 g, 12.8 M, 25.6 N
+B) 1440 g, 14.4 M, 28.8 N
+C) 900 g, 9.1 M, 18.2 N
+D) 1500 g, 15.0 M, 30.0 N
+E) 1350 g, 13.7 M, 27.4 N
+F) 1080 g, 11.0 M, 22.0 N
+G) 1530 g, 15.5 M, 31.0 N
+H) 1800 g, 18.0 M, 36.0 N
+I) 1980 g, 20.0 M, 40.0 N
+J) 1620 g, 16.5 M, 33.0 N
+
+Above are multiple-choice questions (with answers) related to chemistry.
+Simply respond with 'The answer is /option letter and value/.'",chemistry_mmlu,J,gemma2:27b,A,llama3-chatqa:8b,B,mistral:7b,J,qwen2.5:14b,E,phi4:14b,B,gemma3:27b,B
+"Question: How many full strokes of a bicycle pump (chamber 4.0 cm diameter and 40.0 cm long) would you need to make in order to pump up an automobile tire from a gauge pressure of zero to 24 pounds per square inch (psi)? Assume tem-perature stays constant at 25°C and atmospheric pressure is one atmosphere. Note, that gauge pressure measures only the excess over atmospheric pressure. A typical tire volume is about 25 liters.
+
+A) 85 strokes
+B) 70 strokes
+C) 75 strokes
+D) 81 strokes
+E) 90 strokes
+F) 120 strokes
+G) 110 strokes
+H) 100 strokes
+I) 95 strokes
+J) 65 strokes
+
+Above are multiple-choice questions (with answers) related to chemistry.
+Simply respond with 'The answer is /option letter and value/.'",chemistry_mmlu,D,gemma2:27b,D,llama3-chatqa:8b,C,mistral:7b,I,qwen2.5:14b,D,phi4:14b,A,gemma3:27b,A
+"Question: A certain solution has pH 3.89 at 0°C. FindpOHand [OH-].
+
+A) pOH=12.11, [OH^-]= 7.8 × 10^-13
+B) pOH=11.05, [OH^-]= 8.9 × 10^-10
+C) pOH=14.00 - pH, [OH^-] is calculated from pOH
+D) pOH=11.89, [OH^-]= 1.3 × 10^-12
+E) pOH=11.05, [OH^-]= 8.9 × 10^-12
+F) pOH=12.05, [OH^-]= 8.9 × 10^-13
+G) pOH=9.95, [OH^-]= 1.1 × 10^-10
+H) pOH=10.11, [OH^-]= 7.8 × 10^-11
+I) pOH=10.89, [OH^-]= 1.3 × 10^-11
+J) pOH=10.05, [OH^-]= 8.9 × 10^-11
+
+Above are multiple-choice questions (with answers) related to chemistry.
+Simply respond with 'The answer is /option letter and value/.'",chemistry_mmlu,E,gemma2:27b,A,llama3-chatqa:8b,B,mistral:7b,C,qwen2.5:14b,B,phi4:14b,D,gemma3:27b,A
+"Question: Assume that all gases are perfect and that data refer to 298 K unless otherwise stated. 3.17 Estimate the standard reaction Gibbs energy of $\mathrm{N}_2(\mathrm{~g})+3 \mathrm{H}_2(\mathrm{~g}) \rightarrow$ $2 \mathrm{NH}_3(\mathrm{~g})$ at $1000 \mathrm{~K}$ from their values at $298 \mathrm{~K}$.
+
+A) -16$\mathrm{kJ} \mathrm{mol}^{-1}$
+B) +250$\mathrm{kJ} \mathrm{mol}^{-1}$
+C) +134$\mathrm{kJ} \mathrm{mol}^{-1}$
+D) -98$\mathrm{kJ} \mathrm{mol}^{-1}$
+E)  +107$\mathrm{kJ} \mathrm{mol}^{-1}$
+F) -150$\mathrm{kJ} \mathrm{mol}^{-1}$
+G) +200$\mathrm{kJ} \mathrm{mol}^{-1}$
+H) +75$\mathrm{kJ} \mathrm{mol}^{-1}$
+I) -66$\mathrm{kJ} \mathrm{mol}^{-1}$
+J) +52$\mathrm{kJ} \mathrm{mol}^{-1}$
+
+Above are multiple-choice questions (with answers) related to chemistry.
+Simply respond with 'The answer is /option letter and value/.'",chemistry_mmlu,E,gemma2:27b,D,llama3-chatqa:8b,C,mistral:7b,I,qwen2.5:14b,D,phi4:14b,D,gemma3:27b,E
+"Question: The Pauli exclusion principle states that
+
+A) no two electrons can occupy separate orbitals
+B) no two protons can have the same four quantum numbers
+C) two electrons can share the same quantum number if they are in different orbitals
+D) no two electrons can have the same four quantum numbers
+E) no two electrons can pair up if there is an empty orbital available
+F) no two electrons with the same spin can occupy an orbital
+G) two electrons can share the same quantum number if they have opposite spins
+H) all electrons in an atom must have the same spin
+
+Above are multiple-choice questions (with answers) related to chemistry.
+Simply respond with 'The answer is /option letter and value/.'",chemistry_mmlu,D,gemma2:27b,D,llama3-chatqa:8b,D,mistral:7b,D,qwen2.5:14b,D,phi4:14b,D,gemma3:27b,D
+"Question: Given that $D_e=4.75 \mathrm{eV}$ and $R_e=0.741 Å$ for the ground electronic state of $\mathrm{H}_2$, find $U\left(R_e\right)$ for this state.
+
+A) -26.89 $\mathrm{eV}$
+B) -30.77 $\mathrm{eV}$
+C) -34.12 $\mathrm{eV}$
+D) -28.57 $\mathrm{eV}$
+E) -29.84 $\mathrm{eV}$
+F)  -31.95 $\mathrm{eV}$
+G) -33.21 $\mathrm{eV}$
+H) -24.68 $\mathrm{eV}$
+I) -35.00 $\mathrm{eV}$
+J) -22.34 $\mathrm{eV}$
+
+Above are multiple-choice questions (with answers) related to chemistry.
+Simply respond with 'The answer is /option letter and value/.'",chemistry_mmlu,F,gemma2:27b,E,llama3-chatqa:8b,D,mistral:7b,D,qwen2.5:14b,B,phi4:14b,E,gemma3:27b,E
+"Question: The radioactive decay constant for radium is 1.36 × 10^-11 . How many disintegrations per second occur in 100 g of radium? The molecular weight of radium is 226 g/mole.
+
+A) 7.89 × 10^16 dis/sec
+B) 5.47 × 10^10 dis/sec
+C) 8.31 × 10^13 dis/sec
+D) 0.442 dis/sec
+E) 2.66 × 10^23 dis/sec
+F) 1.36 × 10^5 dis/sec
+G) 1.36 × 10^-11 dis/sec
+H) 2.22 × 10^8 dis/sec
+I) 6.02 × 10^14 dis/sec
+J) 3.62 ×10^12 dis/sec
+
+Above are multiple-choice questions (with answers) related to chemistry.
+Simply respond with 'The answer is /option letter and value/.'",chemistry_mmlu,J,gemma2:27b,A,llama3-chatqa:8b,B,mistral:7b,E,qwen2.5:14b,J,phi4:14b,G,gemma3:27b,A
+"Question: Wave number (ѵ̅) are the reciprocals of wavelengths, \lambda, and are given by the expression ѵ̅ = 1/\lambda. For the hydrogen atom, the Bohr theory predicts that the wave number for the emission line associated with an electronic transition from the energy level having principal quantum number n_2 to that with principal quantum number n_1 is ѵ̅ = R_H [(1/n_1 ^2) - (1/n_2 ^2)], where R_H is theRydbergconstant. In what region of the electromagnetic spectrum would there appear a spectral line resulting from the transition from the tenth to the fifth electronic level in hydrogen?
+
+A) Gamma-ray region
+B) X-ray region
+C) Infrared region
+D) Extreme Ultraviolet region
+E) Radio region
+F) Visible region
+G) Microwave region
+H) Terahertz region
+I) Soft X-ray region
+J) Ultraviolet region
+
+Above are multiple-choice questions (with answers) related to chemistry.
+Simply respond with 'The answer is /option letter and value/.'",chemistry_mmlu,C,gemma2:27b,J,llama3-chatqa:8b,D,mistral:7b,J,qwen2.5:14b,J,phi4:14b,J,gemma3:27b,J
+"Question: Of the following potential benefits, which is LEAST likely to be provided by the upgraded system?
+
+A) Customers will receive instant solutions to their issues.
+B) Customers are likely to spend less time listening to information not relevant to their issue.
+C) Human representatives will not be needed to respond to some inquiries.
+D) Customers will be unable to mistakenly select the incorrect department for their particular issue.
+E) The system will automatically resolve all customer issues.
+F) The company will be able to provide a human representative for any incoming call.
+
+Above are multiple-choice questions (with answers) related to computer science.
+Simply respond with 'The answer is /option letter and value/.'",computer science_mmlu,F,gemma2:27b,E,llama3-chatqa:8b,A,mistral:7b,E,qwen2.5:14b,E,phi4:14b,E,gemma3:27b,E
+"Question: Suppose a convex 3d-object has k pentagonal faces and m hexagonal faces. All faces are regular. What is k?
+
+A) 16
+B) 5
+C) 10
+D) 12
+E) 15
+F) 8
+G) 14
+H) 25
+I) 18
+J) 20
+
+Above are multiple-choice questions (with answers) related to computer science.
+Simply respond with 'The answer is /option letter and value/.'",computer science_mmlu,D,gemma2:27b,D,llama3-chatqa:8b,B,mistral:7b,E,qwen2.5:14b,E,phi4:14b,A,gemma3:27b,D
+"Question: Obtain the 15's and 16's complement of the following hexadecimalnumbers: a) FFOb) 1234c) ABCDd) 0000
+
+A) a) 000, b) EDCD, c) 5434, d) 0001
+B) a) FFO, b) 1234, c) ABCD, d) 0000
+C) a) 00F, b) EDDD, c) 5432, d) FFF0
+D) a) 010, b) EECB, c) 6543, d) 000F
+E) a) 00F, b) EDCB, c) 5432, d) FFFF
+F) a) 010, b) EDCC, c) 5433, d) 10000
+G) a) FFF, b) 1234, c) ABCD, d) 0000
+H) a) FFF, b) 1235, c) ABCD, d) 0001
+I) a) 010, b) EDBA, c) 5430, d) FFF1
+J) a) 001, b) EDBB, c) 5431, d) FFFE
+
+Above are multiple-choice questions (with answers) related to computer science.
+Simply respond with 'The answer is /option letter and value/.'",computer science_mmlu,F,gemma2:27b,A,llama3-chatqa:8b,G,mistral:7b,A,qwen2.5:14b,E,phi4:14b,A,gemma3:27b,E
+"Question: Let G = (V, E) be a connected, undirected graph, and let a and b be two distinct vertices in V. Let P_1 be the problem of finding a shortest simple path between a and b, and let P_2 be the problem of finding a longest simple path between a and b. Which of the following statements about P_1 and P_2 is true?
+
+A) Both P_1 and P_2 are known to not be solvable in polynomial time.
+B) Both P_1 and P_2 can be solved in polynomial time.
+C) P_1 is not known to be solvable in polynomial time but P_2 can be solved in polynomial time.
+D) P_2 can be solved in polynomial time and P_1 is known to not be solvable in polynomial time.
+E) P_2 can be solved in polynomial time but P_1 is not known to be solvable in polynomial time.
+F) It is known that either P_1 or P_2 can be solved in polynomial time.
+G) P_1 can be solved in polynomial time but P_2 is not known to be solvable in polynomial time.
+H) It is not known whether either P_1 or P_2 can be solved in polynomial time.
+I) P_1 is known to not be solvable in polynomial time but P_2 can be solved in polynomial time.
+J) P_1 can be solved in polynomial time and P_2 is known to not be solvable in polynomial time.
+
+Above are multiple-choice questions (with answers) related to computer science.
+Simply respond with 'The answer is /option letter and value/.'",computer science_mmlu,G,gemma2:27b,B,llama3-chatqa:8b,D,mistral:7b,D,qwen2.5:14b,G,phi4:14b,J,gemma3:27b,A
+"Question: A ""strictly binary tree"" is a binary tree in which every node that is not a leaf has two children. Suppose that for a class of strictly binary trees there exists c > 0 such that, for any tree in the class, the ratio of the lengths of any two root-to-leaf paths is bounded above by c. Which of the following best characterizes the height h of any tree in this class, where N is the number of nodes in the tree and N > 1 ?
+
+A) h <= log2(N)
+B) h = log2(cN)
+C) h > c log2(N)
+D) h < 1/c * log2(N)
+E) h < c log2(N)
+F) h > log2(N)
+G) h <= c log2(N)
+H) h > log2(cN)
+I) h = c log2(N)
+J) h = 1/c * log2(N)
+
+Above are multiple-choice questions (with answers) related to computer science.
+Simply respond with 'The answer is /option letter and value/.'",computer science_mmlu,E,gemma2:27b,E,llama3-chatqa:8b,G,mistral:7b,G,qwen2.5:14b,G,phi4:14b,G,gemma3:27b,E
+"Question: A starvation-free job-scheduling policy guarantees that no job waits indefinitely for service. Which of the following job-scheduling policies is starvation-free?
+
+A) Youngest job first
+B) Least frequently used
+C) Round-robin
+D) Most recently used
+E) Longest job first
+F) Random job selection
+G) Priority queuing
+H) Shortest job first
+
+Above are multiple-choice questions (with answers) related to computer science.
+Simply respond with 'The answer is /option letter and value/.'",computer science_mmlu,C,gemma2:27b,C,llama3-chatqa:8b,A,mistral:7b,H,qwen2.5:14b,C,phi4:14b,C,gemma3:27b,C
+"Question: What are the rules regarding the specification of a procedure?
+
+A) Procedures execute automatically during program execution
+B) Procedures require a start statement but do not have a specific ending requirement; they terminate when the program execution completes.
+C) Procedures can only be declared at the beginning of the program
+D) Procedure blocks must be written in a separate file from the main program and are included during compilation.
+E) Procedures can be declared with any number of names, and the END statement is optional, with the block ending at the first RETURN statement.
+F) Procedures must be invoked at the start of the program and run continuously until the program ends.
+G) Procedure blocks must be labeled with a unique number and can only contain variable declarations.
+H) Procedures do not require an end statement
+I) Procedures must be declared within the main function and cannot be invoked by other procedures or functions.
+J) Procedure block may appear anywhere in the program, must start with a procedure statement with at least one name, must end with an END procedure-name statement, is bypassed during execution unless invoked by a procedure reference.
+
+Above are multiple-choice questions (with answers) related to computer science.
+Simply respond with 'The answer is /option letter and value/.'",computer science_mmlu,J,gemma2:27b,J,llama3-chatqa:8b,J,mistral:7b,J,qwen2.5:14b,J,phi4:14b,J,gemma3:27b,J
+"Question: Which of the following is true about an intention tremor?
+
+A) It is a symptom of Alzheimer's Disease
+B) It is worsened by consuming alcohol
+C) It is caused by a lesion in the frontal lobe
+D) It is caused by damage to the spinal cord
+E) It is an involuntary movement disorder
+F) It is indicative of a cerebellar lesion
+G) It is caused by Parkinson's Disease
+H) It is worse at rest
+I) Dyscalculia is a common association
+J) It occurs only during sleep
+
+Above are multiple-choice questions (with answers) related to health.
+Simply respond with 'The answer is /option letter and value/.'",health_mmlu,F,gemma2:27b,E,llama3-chatqa:8b,F,mistral:7b,E,qwen2.5:14b,F,phi4:14b,F,gemma3:27b,E
+"Question: A 19-year-old college student comes to the physician because of vaginal irritation and pain with urination for 5 days. Two weeks ago, she had streptococcal pharyngitis treated with amoxicillin. She has been sexually active with two partners over the past year; she uses condoms for contraception. Her last menstrual period was 1 week ago. Her temperature is 37.2°C (99°F), and blood pressure is 90/60 mm Hg. Pelvic examination shows erythema of the vulva and vagina and a thick white vaginal discharge. The pH of the discharge is 4. Which of the following is the most likely cause of these findings?
+
+A) Bacterial vaginosis
+B) Candidiasis
+C) Chlamydia trachomatis infection
+D) Escherichia coli infection
+
+Above are multiple-choice questions (with answers) related to health.
+Simply respond with 'The answer is /option letter and value/.'",health_mmlu,B,gemma2:27b,B,llama3-chatqa:8b,A,mistral:7b,C,qwen2.5:14b,B,phi4:14b,B,gemma3:27b,B
+"Question: A previously healthy 15-year-old boy is brought to the emergency department in August 1 hour after the onset of headache, dizziness, nausea, and one episode of vomiting. His symptoms began during the first hour of full-contact football practice in full uniform. He reported feeling weak and faint but did not lose consciousness. He vomited once after drinking water. On arrival, he is diaphoretic. He is not oriented to person, place, or time. His temperature is 39.5°C (103.1°F), pulse is 120/min, respirations are 40/min, and blood pressure is 90/65 mm Hg. Examination, including neurologic examination, shows no other abnormalities. Which of the following is the most appropriate next step in management?
+
+A) Administer an epinephrine injection
+B) Administer oxygen via a nasal cannula
+C) Perform a lumbar puncture
+D) Immerse the patient in an ice water bath
+E) Apply cold compresses to the forehead
+F) Obtain a CT scan of the head
+G) Administer a dose of ibuprofen
+H) Administer intravenous fluids
+I) Administer sodium chloride tablets
+J) Administer a glucose injection
+
+Above are multiple-choice questions (with answers) related to health.
+Simply respond with 'The answer is /option letter and value/.'",health_mmlu,H,gemma2:27b,H,llama3-chatqa:8b,H,mistral:7b,F,qwen2.5:14b,D,phi4:14b,D,gemma3:27b,H
+"Question: Which of the following is true about Addisons Disease?
+
+A) Results in frequent urination and thirst
+B) It is a result of an overactive thyroid gland
+C) High cholesterol levels are a common symptom
+D) It is a recognized cause of hypertension
+E) It is caused by excessive production of insulin
+F) It is a disease that affects the pituitary gland
+G) It is a form of cancer that affects the adrenal glands
+H) Diabetes is a complication
+I) Leads to generalized pigmentation
+J) It is due to a deficiency of prolactin hormone
+
+Above are multiple-choice questions (with answers) related to health.
+Simply respond with 'The answer is /option letter and value/.'",health_mmlu,I,gemma2:27b,H,llama3-chatqa:8b,A,mistral:7b,I,qwen2.5:14b,I,phi4:14b,I,gemma3:27b,I
+"Question: Normal memory seems to be improved by
+
+A) Sleeping less hours per night
+B) Decreasing physical activity
+C) Taking melatonin supplements
+D) Aerobic exercise
+E) Isolating oneself from social activities
+F) Drinking more caffeine
+G) Taking gingko
+H) Taking acetylcholine
+I) Eating more sugary foods
+
+Above are multiple-choice questions (with answers) related to health.
+Simply respond with 'The answer is /option letter and value/.'",health_mmlu,D,gemma2:27b,D,llama3-chatqa:8b,D,mistral:7b,D,qwen2.5:14b,D,phi4:14b,D,gemma3:27b,D
+"Question: A physician is conducting a retrospective review of a trial involving the use of Drug X in patients with a specific disease. It is known that Drug X is associated with an increased probability of cancer in patients who use the drug. A total of 600 individuals with a specific disease were included in the trial. Of the participants, 200 individuals received Drug X and 400 individuals did not receive it. One hundred individuals who received Drug X died of a particular type of cancer and 100 individuals who did not receive the drug died of the same type of cancer. Based on these data, which of the following is the relative risk of death from this type of cancer in individuals who take Drug X as compared with individuals who do not take Drug X?
+
+A) Individuals who take Drug X have two times the risk of dying from this type of cancer
+B) Individuals who take Drug X have four times the risk of dying from this type of cancer
+C) Individuals who take Drug X have three times the risk of dying from this type of cancer
+D) Individuals who take Drug X have six times the risk of dying from this type of cancer
+E) Individuals who do not take Drug X have three times the risk of dying from this type of cancer
+F) Individuals who take Drug X have half the risk of dying from this type of cancer
+G) Individuals who take Drug X have an equal risk of dying from this type of cancer
+H) Individuals who do not take Drug X have two times the risk of dying from this type of cancer
+I) Individuals who take Drug X have five times the risk of dying from this type of cancer
+J) Individuals who take Drug X have zero risk of dying from this type of cancer
+
+Above are multiple-choice questions (with answers) related to health.
+Simply respond with 'The answer is /option letter and value/.'",health_mmlu,A,gemma2:27b,A,llama3-chatqa:8b,C,mistral:7b,C,qwen2.5:14b,A,phi4:14b,A,gemma3:27b,A
+"Question: A 15-year-old girl is brought to the physician 3 months after she had a blood pressure of 150/95 mm Hg at a routine examination prior to participation in school sports. She is asymptomatic and has no history of serious illness. Twelve months ago, she was diagnosed with a urinary tract infection and treated with oral trimethoprim-sulfamethoxazole. She currently takes no medications. Subsequent blood pressure measurements on three separate occasions since the last visit have been: 155/94 mm Hg, 145/90 mm Hg, and 150/92 mm Hg. She is at the 50th percentile for height and 95th percentile for weight. Her blood pressure today is 150/90 mm Hg confirmed by a second measurement, pulse is 80/min, and respirations are 12/min. Examination shows no other abnormalities. Her hematocrit is 40%. Urinalysis is within normal limits. Cardiac and renal ultrasonography shows no abnormalities. Which of the following is the most appropriate next step in management?
+
+A) Measurement of serum potassium levels
+B) Measurement of urine corticosteroid concentrations
+C) Exercise and weight reduction program
+D) Captopril therapy
+E) Initiate diuretic therapy
+F) Referral for psychiatric evaluation
+G) Initiate calcium channel blocker therapy
+H) Measurement of urine catecholamine concentrations
+I) Measurement of plasma renin activity
+J) Initiate beta-blocker therapy
+
+Above are multiple-choice questions (with answers) related to health.
+Simply respond with 'The answer is /option letter and value/.'",health_mmlu,C,gemma2:27b,C,llama3-chatqa:8b,C,mistral:7b,E,qwen2.5:14b,H,phi4:14b,C,gemma3:27b,C
+"Question: One reason that older adults may have difficulty in retrieving memories is that
+
+A) There are many more memories to search through to find the one that is sought
+B) The aging brain is less capable of accessing long-term memory
+C) Memory is less well organized as we grow older and finding a memory can be quite difficult
+D) Older adults intentionally suppress certain memories
+E) Memory retrieval is physically tiring for older adults
+F) Older adults are less capable of forming new memories
+G) Long-term memory often discards older and unused memories
+H) Memory retrieval is often affected by external distractions faced by older adults
+I) The process of memory retrieval slows down significantly with age
+J) Older adults quit searching because they have more important things to do
+
+Above are multiple-choice questions (with answers) related to health.
+Simply respond with 'The answer is /option letter and value/.'",health_mmlu,A,gemma2:27b,I,llama3-chatqa:8b,B,mistral:7b,I,qwen2.5:14b,B,phi4:14b,A,gemma3:27b,A
+"Question: An 18-year-old primigravid woman comes for her initial prenatal visit at 16 weeks' gestation. She is not sure about the date of her last menstrual period but says that the pregnancy probably occurred immediately after she stopped taking oral contraceptives 5 months ago. Maternal serum α-fetoprotein (MSAFP) concentration is increased to 3 multiples of the median. Which of the following is the most appropriate next step in management?
+
+A) Amniocentesis for measurement of α-fetoprotein concentration
+B) Immediate cesarean section
+C) Hormone therapy to balance MSAFP levels
+D) Monitor patient without taking action
+E) Triple screening for MSAFP, serum β-hCG, and serum estriol concentrations
+F) Administer a pregnancy test
+G) Prescribe oral contraceptives
+H) Ultrasonography
+I) Repeat measurement of MSAFP concentration
+J) Conduct a pelvic exam
+
+Above are multiple-choice questions (with answers) related to health.
+Simply respond with 'The answer is /option letter and value/.'",health_mmlu,H,gemma2:27b,H,llama3-chatqa:8b,A,mistral:7b,I,qwen2.5:14b,H,phi4:14b,H,gemma3:27b,H
+"Question: This question refers to the following information.
+""We found that not only was it a civil war, an effort by a people who had for years been seeking their liberation from any colonial influence whatsoever, but also we found that the Vietnamese whom we had enthusiastically molded after our own image were hard put to take up the fight against the threat we were supposedly saving them from.
+""We found most people didn't even know the difference between communism and democracy. They only wanted to work in rice paddies without helicopters strafing them and bombs with napalm burning their villages and tearing their country apart. They wanted everything to do with the war, particularly with this foreign presence of the United States of America, to leave them alone in peace, and they practiced the art of survival by siding with whichever military force was present at a particular time, be it Viet Cong, North Vietnamese or American.""
+John Kerry, 1971
+The two political issues that most concerned the Counterculture Movement of the 1960s were
+
+A) the civil rights movement and environmentalism
+B) the women's rights movement and censorship
+C) the civil rights movement and censorship
+D) flag burning and the draft
+E) U.S. involvement in Vietnam and flag burning
+F) U.S. involvement in Vietnam and the women's rights movement
+G) U.S. involvement in Vietnam and environmentalism
+H) U.S. involvement in Vietnam and the civil rights movement
+I) the draft and the environmental movement
+J) censorship and the draft
+
+Above are multiple-choice questions (with answers) related to history.
+Simply respond with 'The answer is /option letter and value/.'",history_mmlu,H,gemma2:27b,G,llama3-chatqa:8b,H,mistral:7b,H,qwen2.5:14b,H,phi4:14b,E,gemma3:27b,E
+"Question: Homo floresiensis from the island of Flores dates from around 35,000 to 14,000 years ago, and according to some researchers, is similar or related to:
+
+A) Homo neanderthalensis.
+B) Australopithecus afarensis.
+C) Australopithecus africanus.
+D) Homo naledi.
+E) Homo habilis.
+F) Homo ergaster.
+G) Neanderthals.
+H) Homo sapiens.
+I) Homo erectus.
+J) Homo heidelbergensis.
+
+Above are multiple-choice questions (with answers) related to history.
+Simply respond with 'The answer is /option letter and value/.'",history_mmlu,I,gemma2:27b,I,llama3-chatqa:8b,A,mistral:7b,I,qwen2.5:14b,I,phi4:14b,I,gemma3:27b,I
+"Question: This question refers to the following information.
+O ye who believe! Strong drink and games of chance and idols… are only an infamy of Satan's handiwork. Leave it aside in order that ye may succeed.
+the Qur'an, Sura 5: 89
+When once you hear the roses are in bloom,
+Then is the time, my love, to pour the wine.
+the Rubáiyát of Omar Khayyám
+The tone of the first verse best reflects which of the following modes of religious discourse?
+
+A) A call for personal sacrifice in the name of faith
+B) A sermon about respecting political authority
+C) An invitation to question traditional religious beliefs
+D) An ecumenical call for religious tolerance
+E) A cautionary tale about the dangers of hedonism
+F) A mystical appeal to the divine in nature
+G) An endorsement of joyful celebration
+H) A philosophical discourse on the nature of sin and redemption
+I) A puritanical injunction to adhere to a strict code of conduct
+J) A spirited attempt to convert non-believers
+
+Above are multiple-choice questions (with answers) related to history.
+Simply respond with 'The answer is /option letter and value/.'",history_mmlu,I,gemma2:27b,I,llama3-chatqa:8b,F,mistral:7b,E,qwen2.5:14b,I,phi4:14b,I,gemma3:27b,A
+"Question: In periods of great difficulty and stress, it appears that the Minoans __________ in order to appease the gods.
+
+A) stopped all forms of art and music
+B) fasted for long periods
+C) built monumental structures
+D) sacrificed adults and occasionally children
+E) burnt their own houses to the ground
+F) abstained from sexual relations
+G) enacted strict laws and punishments
+H) buried their possessions
+I) performed complex dance rituals
+J) migrated to different regions
+
+Above are multiple-choice questions (with answers) related to history.
+Simply respond with 'The answer is /option letter and value/.'",history_mmlu,D,gemma2:27b,D,llama3-chatqa:8b,D,mistral:7b,D,qwen2.5:14b,D,phi4:14b,D,gemma3:27b,D
+"Question: This question refers to the following information.
+""I know that whenever the subject has occurred in conversation where I have been present, it has appeared to be the opinion of every one that we could not be taxed by a Parliament wherein we were not represented. But the payment of duties laid by an act of Parliament as regulations of commerce was never disputed. . . . An external tax is a duty laid on commodities imported; that duty is added to the first cost and other charges on the commodity, and, when it is offered for sale, makes a part of the price. If the people do not like it at that price, they refuse it; they are not obliged to pay it. But an internal tax is forced from the people without their consent if not laid by their own representatives. The Stamp Act says we shall have no commerce, make no exchange of property with each other, neither purchase nor grant, nor recover debts; we shall neither marry nor make our wills, unless we pay such and such sums; and thus it is intended to extort our money from us or ruin us by the consequence of refusing to pay it.""
+—Benjamin Franklin, Examination before Parliament, 1766
+The policy described most immediately led to
+
+A) the American Revolution.
+B) a negotiated settlement between the tribes of the Southeast and the U.S. government, by which the tribes were allowed to remain on their lands for ten years.
+C) the forced removal of the Cherokee from their homeland.
+D) the first Treaty of Fort Laramie, which guaranteed Indian possession of lands west of the Mississippi River.
+E) peace between Indian tribes and white settlers.
+F) the introduction of the Stamp Act.
+G) the Treaty of Paris, ending the Revolutionary War.
+H) the start of the French and Indian War.
+I) the creation of the United States Constitution.
+J) the formation of the United States Congress.
+
+Above are multiple-choice questions (with answers) related to history.
+Simply respond with 'The answer is /option letter and value/.'",history_mmlu,C,gemma2:27b,F,llama3-chatqa:8b,A,mistral:7b,H,qwen2.5:14b,F,phi4:14b,A,gemma3:27b,A
+"Question: The __________ tradition features finely made, leaf-shaped stone blades. The __________ tradition, which followed behind it, emphasizes bone and antler work.
+
+A) Aurignacian; Solutrean
+B) Gravettian; Solutrean
+C) Gravettian; Aurignacian
+D) Gravettian; Magdelanian
+E) Magdelanian; Gravettian
+F) Aurignacian; Gravettian.
+G) Magdelanian; Aurignacian
+H) Magdelanian; Solutrean
+I) Solutrean; Aurignacian
+J) Solutrean; Magdelanian
+
+Above are multiple-choice questions (with answers) related to history.
+Simply respond with 'The answer is /option letter and value/.'",history_mmlu,J,gemma2:27b,A,llama3-chatqa:8b,C,mistral:7b,F,qwen2.5:14b,I,phi4:14b,D,gemma3:27b,A
+"Question: What do anthropologists NOT need to know to determine when people entered the Americas from Siberia?
+
+A) When sled dogs were first domesticated
+B) When eastern Siberia was first inhabited
+C) When the Bering Strait was exposed and open for travel
+D) The timeline of the Ice Age
+
+Above are multiple-choice questions (with answers) related to history.
+Simply respond with 'The answer is /option letter and value/.'",history_mmlu,A,gemma2:27b,A,llama3-chatqa:8b,C,mistral:7b,C,qwen2.5:14b,A,phi4:14b,A,gemma3:27b,A
+"Question: Which of the following steps should be taken first to effectively present new information to coworkers?
+
+A) Sending out calendar invites for the presentation
+B) Creating three to five key messages
+C) Creating visual aids for the presentation
+D) Determining the objective
+E) Setting up the meeting room for the presentation
+F) Deciding the date and time for the presentation
+G) Writing a detailed script for the presentation
+H) Analyzing the audience
+I) Choosing a communication tool
+J) Practicing the presentation in front of a mirror
+
+Above are multiple-choice questions (with answers) related to other.
+Simply respond with 'The answer is /option letter and value/.'",other_mmlu,D,gemma2:27b,D,llama3-chatqa:8b,D,mistral:7b,D,qwen2.5:14b,D,phi4:14b,D,gemma3:27b,D
+"Question: Which of the following words cannot be decoded through knowledge of letter-sound relationships?
+
+A) Lamp
+B) Flight
+C) Light
+D) Things
+E) Fold
+F) Said
+G) Drain
+
+Above are multiple-choice questions (with answers) related to other.
+Simply respond with 'The answer is /option letter and value/.'",other_mmlu,F,gemma2:27b,D,llama3-chatqa:8b,B,mistral:7b,D,qwen2.5:14b,F,phi4:14b,F,gemma3:27b,F
+"Question: A sect is organised around:
+
+A) belief in the afterlife, individual interpretation of scripture, and weekly gatherings
+B) beliefs that can be challenged by members, a charismatic leader, and openness to new recruits
+C) hierarchical structure, a pope as the head, and a closed canon of scripture
+D) strict rules, a single leader, and exclusion of non-members
+E) tolerance towards other religions and the separation of church and state
+F) acceptance of all beliefs, lack of leadership, and focus on personal growth
+G) worship of a specific deity, regular rituals, and mandatory tithes
+H) voluntary membership, democratic leadership, and high levels of emotional commitment
+I) the idea of the secular world itself as being sacred
+J) a single holy book, a rigid moral code, and a closed community
+
+Above are multiple-choice questions (with answers) related to other.
+Simply respond with 'The answer is /option letter and value/.'",other_mmlu,H,gemma2:27b,B,llama3-chatqa:8b,A,mistral:7b,D,qwen2.5:14b,D,phi4:14b,B,gemma3:27b,D
+"Question: In the context of military security, which of the following is not an obvious benefit of adopting a 'critical' theoretical approach?
+
+A) A more critical approach to military security studies will allow the inclusion or adoption of non-realist paradigms, such as social constructivism.
+B) Critical analysis of military security will draw attention back to traditional conceptions of the state-centric paradigm which have been neglected in recent years, with states favouring human security and other non-traditional approaches instead.
+C) By implementing a critical analysis we can recognise that traditional conceptions of military security are no longer always salient and may need to be reconsidered.
+D) A critical approach would recognise the changing ontology of security in the real world. Such changes are evident in the new ways in which war has been conducted in the 20th and 21st century.
+
+Above are multiple-choice questions (with answers) related to other.
+Simply respond with 'The answer is /option letter and value/.'",other_mmlu,B,gemma2:27b,B,llama3-chatqa:8b,D,mistral:7b,B,qwen2.5:14b,B,phi4:14b,B,gemma3:27b,B
+"Question: Which of the following is an example of a concurrent power?
+
+A) The power to regulate commerce with foreign nations
+B) The printing and coining of money
+C) The power to establish post offices
+D) The process of naturalization
+E) The power to appoint ambassadors and other public ministers.
+F) The power to propose amendments to the Constitution
+G) The power to establish a national bank
+H) The levying of taxes
+I) The power to declare war
+J) The power to make laws necessary and proper for executing other powers
+
+Above are multiple-choice questions (with answers) related to other.
+Simply respond with 'The answer is /option letter and value/.'",other_mmlu,H,gemma2:27b,C,llama3-chatqa:8b,B,mistral:7b,J,qwen2.5:14b,H,phi4:14b,H,gemma3:27b,H
+"Question: Which of the following is a push factor?
+
+A) Good schools for children
+B) An attractive retirement community elsewhere
+C) A bustling city life
+D) Dissatisfaction with current jobs
+E) Availability of public transport
+F) Friendly neighbors
+G) A pleasant climate
+H) Availability of recreational activities
+
+Above are multiple-choice questions (with answers) related to other.
+Simply respond with 'The answer is /option letter and value/.'",other_mmlu,D,gemma2:27b,D,llama3-chatqa:8b,D,mistral:7b,D,qwen2.5:14b,D,phi4:14b,D,gemma3:27b,D
+"Question: A 20% target contribution margin is set for Duct which is a new product with the following unit costs: Manufacturing costs Variable $12 Fixed 8 Selling & admin. Costs Variable $3 Fixed 5 What is Duct's target selling price?
+
+A) $18.75
+B) 33.6
+C) $32.00
+D) $28.00
+E) $20.00
+F) $15.00
+G) $18.00
+H) $22.50
+I) $25.00
+J) $30.00
+
+Above are multiple-choice questions (with answers) related to other.
+Simply respond with 'The answer is /option letter and value/.'",other_mmlu,A,gemma2:27b,D,llama3-chatqa:8b,C,mistral:7b,D,qwen2.5:14b,C,phi4:14b,B,gemma3:27b,B
+"Question: In return for a 20% partnership interest, Skinner contributed $5,000 cash and land with a $12,000 basis and a $20,000 fair market value to the partnership. The land was subject to a $10,000 mortgage that the partnership assumed. In addition, the partnership had $20,000 in recourse liabilities that would be shared by partners according to their partnership interests. What amount represents Skinner’s basis in the partnership interest?
+
+A) $17,000
+B) $20,000
+C) $25,000
+D) $12,000
+E) $15,000
+F) $19,000
+G) $13,000
+H) $14,000
+I) $27,000
+J) $21,000
+
+Above are multiple-choice questions (with answers) related to other.
+Simply respond with 'The answer is /option letter and value/.'",other_mmlu,G,gemma2:27b,E,llama3-chatqa:8b,A,mistral:7b,J,qwen2.5:14b,E,phi4:14b,A,gemma3:27b,A
+"Question: Cobb Inc.'s inventory at May 1 consisted of 200 units at a total cost of $1250. Cobb uses the periodic inventory method. Purchases for the month were as follows: Date No. of Units Unit cost Total Cost May 4 20 $5.80 $116.00 May 17 80 $5.50 $440.00 Cobb sold 10 units on May 14 for $120. What is Cobb's weighted average cost of goods sold for May?
+
+A) $60.20
+B) $58.10
+C) $63.50
+D) 65
+E) $61.20
+F) $64.00
+G) $62.50
+H) $67.50
+I) $66.20
+J) $62.10
+
+Above are multiple-choice questions (with answers) related to other.
+Simply respond with 'The answer is /option letter and value/.'",other_mmlu,A,gemma2:27b,E,llama3-chatqa:8b,G,mistral:7b,G,qwen2.5:14b,E,phi4:14b,B,gemma3:27b,A
+"Question:  Callahan cites the Oregon Death with Dignity Legal Defense and the Education Center's finding that ""after four full years .. there have been no missteps, abuses or coercive tendencies"" regarding laws permitting euthanasia. In response he argues that
+
+A) the findings are suspect because the study was performed by advocates of euthanasia.
+B) other studies have found contrary results.
+C) the study is biased as it was conducted in Oregon, a state with legalized euthanasia.
+D) they can't know this to be true without an anonymous survey.
+E) even if the finding is true, it is irrelevant to the moral status of euthanasia.
+F) the results are irrelevant as they do not consider the psychological impact on the families involved.
+G) the findings are inaccurate as the study only covers a short period.
+H) the findings are misleading as they do not reflect the global perspective on euthanasia.
+I) the study lacks credibility as it was not peer-reviewed.
+
+Above are multiple-choice questions (with answers) related to philosophy.
+Simply respond with 'The answer is /option letter and value/.'",philosophy_mmlu,D,gemma2:27b,E,llama3-chatqa:8b,A,mistral:7b,A,qwen2.5:14b,E,phi4:14b,E,gemma3:27b,A
+"Question: Wolf claims that morality:
+
+A) is merely a cultural artifact.
+B) is not really relevant to our lives.
+C) provides a comprehensive guide to conduct.
+D) none of the above.
+
+Above are multiple-choice questions (with answers) related to philosophy.
+Simply respond with 'The answer is /option letter and value/.'",philosophy_mmlu,D,gemma2:27b,A,llama3-chatqa:8b,A,mistral:7b,A,qwen2.5:14b,D,phi4:14b,A,gemma3:27b,A
+"Question:  According to Sinnott-Armstrong, the fact your government morally ought to do something
+
+A) does not prove that government officials ought to promote it.
+B) does not prove that you ought to do it.
+C) proves that you ought not to do it.
+D) proves that you ought to do it, too.
+
+Above are multiple-choice questions (with answers) related to philosophy.
+Simply respond with 'The answer is /option letter and value/.'",philosophy_mmlu,B,gemma2:27b,A,llama3-chatqa:8b,A,mistral:7b,B,qwen2.5:14b,B,phi4:14b,A,gemma3:27b,A
+"Question: The version of utilitarianism that Brandt defends makes rightness a function of:
+
+A) the amount of harm caused by an action.
+B) whether or not one’s maxim can be universalized.
+C) the moral character of the person performing the action.
+D) the distribution of wealth in society.
+E) the consequences of particular acts.
+F) the intentions behind the action.
+G) ideal rules.
+H) the preferences of the individual.
+I) the total amount of happiness in society.
+J) the actual and recognized rules of society.
+
+Above are multiple-choice questions (with answers) related to philosophy.
+Simply respond with 'The answer is /option letter and value/.'",philosophy_mmlu,G,gemma2:27b,E,llama3-chatqa:8b,E,mistral:7b,E,qwen2.5:14b,E,phi4:14b,G,gemma3:27b,E
+"Question: Another name for hasty conclusion is
+
+A) false cause
+B) red herring
+C) argumentum ad populum
+D) jumping to a conclusion
+E) ad novitatem
+F) slippery slope
+G) straw man fallacy
+H) post hoc ergo prompter hoc
+I) ad hominem
+
+Above are multiple-choice questions (with answers) related to philosophy.
+Simply respond with 'The answer is /option letter and value/.'",philosophy_mmlu,D,gemma2:27b,D,llama3-chatqa:8b,D,mistral:7b,D,qwen2.5:14b,D,phi4:14b,D,gemma3:27b,D
+"Question: Plato's suggestion that knowledge is innate or remembered as a result of being triggered by experience is in response to a paradox he sets up for himself.  The paradox, now referred to as Meno's Paradox, has to do with the question of:
+
+A) how anyone can recognize the correct answer to a question without already knowing the answer.
+B) how the soul can reincarnate if it carries no memory of past lives.
+C) how knowledge of the Forms can ever be anything other than a generalization of experience.
+D) how a person can remember anything about the realm of the Forms after the shock of being born into this world.
+E) how concepts bound to the realm of becoming have meaning only when associated with the realm of Being.
+F) how a person can possess knowledge without having been taught.
+G) how a person can forget something they once knew clearly.
+H) how it is possible to know something that one has not experienced.
+I) how knowledge can be both innate and learned at the same time.
+J) how the human mind can conceive of the Forms without physical representation.
+
+Above are multiple-choice questions (with answers) related to philosophy.
+Simply respond with 'The answer is /option letter and value/.'",philosophy_mmlu,A,gemma2:27b,A,llama3-chatqa:8b,F,mistral:7b,F,qwen2.5:14b,F,phi4:14b,A,gemma3:27b,A
+"Question: According to Stevenson, the word “good” has a pleasing emotive meaning that fits it for:
+
+A) dynamic use.
+B) descriptive use.
+C) inferential use.
+D) propositional use.
+E) expressive use.
+F) evaluative use.
+G) analytical use.
+H) semantic use.
+I) constructive use.
+J) pragmatic use.
+
+Above are multiple-choice questions (with answers) related to philosophy.
+Simply respond with 'The answer is /option letter and value/.'",philosophy_mmlu,A,gemma2:27b,E,llama3-chatqa:8b,F,mistral:7b,F,qwen2.5:14b,F,phi4:14b,A,gemma3:27b,E
+"Question: Why is Saturn almost as big as Jupiter despite its smaller mass?
+
+A) Jupiter has more moons, which increase its gravitational pull and compress it more.
+B) The rapid rotation of Saturn causes it to expand.
+C) Saturn's lower gravity allows it to expand more.
+D) Saturn's rings make it appear larger than it actually is.
+E) Saturn is made up of lighter elements, thus decreasing its density.
+F) Jupiter's greater mass compresses it more thus increasing its density.
+G) Jupiter's strong magnetic field constrains its size.
+H) Saturn is further from the Sun thus cooler and therefore less compact.
+I) Saturn's higher temperature allows its gases to expand more than Jupiter's.
+J) Saturn has a larger proportion of hydrogen and helium than Jupiter and is therefore less dense.
+
+Above are multiple-choice questions (with answers) related to physics.
+Simply respond with 'The answer is /option letter and value/.'",physics_mmlu,F,gemma2:27b,C,llama3-chatqa:8b,H,mistral:7b,J,qwen2.5:14b,E,phi4:14b,C,gemma3:27b,C
+"Question: In a particular inertial reference frame S, two events occur a distance 6 × 10^8 m apart and are separated by a time inter-val of (a) 2 sec (b) 1 sec. What is the proper time interval between these two events?
+
+A) ∆t' = 2
+B) ∆t' = 2.5 sec
+C) ∆t' cannot be determined without additional information about the velocity of S' relative to S
+D) ∆t' = 4 sec
+E) ∆t' = √3 sec
+F) The two events never occur at the same place
+G) ∆t' = 0 and no reference frame S' can be found
+H) ∆t' = 3 sec
+I) ∆t' = 1.5 sec
+J) ∆t' = 1
+
+Above are multiple-choice questions (with answers) related to physics.
+Simply respond with 'The answer is /option letter and value/.'",physics_mmlu,G,gemma2:27b,C,llama3-chatqa:8b,J,mistral:7b,C,qwen2.5:14b,C,phi4:14b,C,gemma3:27b,C
+"Question: A gun is fired at a moving target. The bullet has a pro-jectile speed of 1200 ft/sec. Both gun and target are on level ground. The target is moving 60 mph away from the gun and it is 30,000 ft from the gun at the moment of firing. Determine the angle of elevation \texttheta needed for a direct hit.
+
+A) 25 degrees
+B) 32 degrees
+C) 15 degrees
+D) 34.2 degrees
+E) 21.3 degrees
+F) 20 degrees
+G) 27.5 degrees
+H) 18.7 degrees
+I) 23.4 degrees
+J) 30 degrees
+
+Above are multiple-choice questions (with answers) related to physics.
+Simply respond with 'The answer is /option letter and value/.'",physics_mmlu,I,gemma2:27b,D,llama3-chatqa:8b,D,mistral:7b,I,qwen2.5:14b,E,phi4:14b,D,gemma3:27b,D
+"Question: An airplane is flying at Mach 1.75 at an altitude of 8000 m, where the speed of sound is How long after the plane passes directly overhead will you hear the sonic boom? (Unit: m/s)
+
+A) 800
+B) 520
+C) 500
+D) 700
+E) 750
+F) 650
+G) 850
+H) 450
+I) 560
+J) 600
+
+Above are multiple-choice questions (with answers) related to physics.
+Simply respond with 'The answer is /option letter and value/.'",physics_mmlu,I,gemma2:27b,D,llama3-chatqa:8b,C,mistral:7b,J,qwen2.5:14b,B,phi4:14b,D,gemma3:27b,B
+"Question: A square metal plate of edge length $8.0 \mathrm{~cm}$ and negligible thickness has a total charge of $6.0 \times 10^{-6} \mathrm{C}$. Estimate the magnitude $E$ of the electric field just off the center of the plate (at, say, a distance of $0.50 \mathrm{~mm}$ from the center) by assuming that the charge is spread uniformly over the two faces of the plate. 
+
+A) $9.3 \times 10^7 \mathrm{~N} / \mathrm{C}$
+B) $4.9 \times 10^7 \mathrm{~N} / \mathrm{C}$
+C) $1.5 \times 10^7 \mathrm{~N} / \mathrm{C}$
+D) $5.4$$10^7 \mathrm{~N} / \mathrm{C}$ 
+E) $8.5 \times 10^7 \mathrm{~N} / \mathrm{C}$
+F) $3.8 \times 10^7 \mathrm{~N} / \mathrm{C}$
+G) $2.1 \times 10^7 \mathrm{~N} / \mathrm{C}$
+H) $6.2 \times 10^7 \mathrm{~N} / \mathrm{C}$
+I) $7.1 \times 10^7 \mathrm{~N} / \mathrm{C}$
+J) $4.2 \times 10^7 \mathrm{~N} / \mathrm{C}$
+
+Above are multiple-choice questions (with answers) related to physics.
+Simply respond with 'The answer is /option letter and value/.'",physics_mmlu,D,gemma2:27b,D,llama3-chatqa:8b,D,mistral:7b,G,qwen2.5:14b,B,phi4:14b,A,gemma3:27b,A
+"Question: A bar pivoting about one end has an angular velocity of 8 rad/sec clockwise when it is subjected to a constant angular deceleration, which is to act for a time interval until the bar has an angular displacement of 10radcounterclockwise from its position at the instant at which the deceleration was first applied. The bar will have moved through a total angular distance of 26radin this same time interval. What will be the angular velocity at the end of the time interval?
+
+A) 10rad/sec counterclockwise
+B) 2 rad/sec clockwise
+C) 8rad/sec clockwise
+D) 4 rad/sec clockwise
+E) 0 rad/sec (stationary)
+F) 12rad/sec counterclockwise
+G) 16 rad/sec counterclockwise
+H) 14rad/sec counterclockwise
+I) 18 rad/sec counterclockwise
+J) 6 rad/sec counterclockwise
+
+Above are multiple-choice questions (with answers) related to physics.
+Simply respond with 'The answer is /option letter and value/.'",physics_mmlu,F,gemma2:27b,J,llama3-chatqa:8b,G,mistral:7b,J,qwen2.5:14b,E,phi4:14b,J,gemma3:27b,B
+"Question: ""Top gun"" pilots have long worried about taking a turn too tightly. As a pilot's body undergoes centripetal acceleration, with the head toward the center of curvature, the blood pressure in the brain decreases, leading to loss of brain function.
+There are several warning signs. When the centripetal acceleration is $2 g$ or $3 g$, the pilot feels heavy. At about $4 g$, the pilot's vision switches to black and white and narrows to ""tunnel vision."" If that acceleration is sustained or increased, vision ceases and, soon after, the pilot is unconscious - a condition known as $g$-LOC for "" $g$-induced loss of consciousness.""
+
+What is the magnitude of the acceleration, in $g$ units, of a pilot whose aircraft enters a horizontal circular turn with a velocity of $\vec{v}_i=(400 \hat{\mathrm{i}}+500 \hat{\mathrm{j}}) \mathrm{m} / \mathrm{s}$ and $24.0 \mathrm{~s}$ later leaves the turn with a velocity of $\vec{v}_f=(-400 \hat{\mathrm{i}}-500 \hat{\mathrm{j}}) \mathrm{m} / \mathrm{s}$ ?
+
+A) 95.67 $\mathrm{m} / \mathrm{s}^2$
+B) 62.48 $\mathrm{m} / \mathrm{s}^2$
+C) 83.81 $\mathrm{m} / \mathrm{s}^2$
+D) 72.14 $\mathrm{m} / \mathrm{s}^2$
+E) 110.87 $\mathrm{m} / \mathrm{s}^2$
+F) 75.19 $\mathrm{m} / \mathrm{s}^2$
+G) 100.56 $\mathrm{m} / \mathrm{s}^2$
+H) 55.92 $\mathrm{m} / \mathrm{s}^2$
+I) 90.43 $\mathrm{m} / \mathrm{s}^2$
+J) 68.25 $\mathrm{m} / \mathrm{s}^2$
+
+Above are multiple-choice questions (with answers) related to physics.
+Simply respond with 'The answer is /option letter and value/.'",physics_mmlu,C,gemma2:27b,F,llama3-chatqa:8b,G,mistral:7b,I,qwen2.5:14b,E,phi4:14b,G,gemma3:27b,D
+"Question: A pure lead bar 10 cm long is maintained with one end at T &=300 K and the other at 310 K. The thermoelectric potential difference thus induced across the ends is 12.8 micro-volts. Find the thermoelectric power for lead in this temperature range in V/K. (Note: Q varies nonlinearly with temperature, but over this narrow temperature range, you may use a linear approximation.)
+
+A) 2.56e-07
+B) 6.40e-06
+C) 6.40e-07
+D) 5.12e-06
+E) 1.28e-05
+F) 3.20e-06
+G) 3.20e-07
+H) 1.28e-06
+I) 2.56e-06
+J) 1.28e-07
+
+Above are multiple-choice questions (with answers) related to physics.
+Simply respond with 'The answer is /option letter and value/.'",physics_mmlu,H,gemma2:27b,C,llama3-chatqa:8b,C,mistral:7b,I,qwen2.5:14b,C,phi4:14b,C,gemma3:27b,C
+"Question: A 3-microfarad capacitor is connected in series with a 6-microfarad capacitor. When a 300-volt potential difference is applied across this combination, the total energy stored in the two capacitors is
+
+A) 0.41 J
+B) 0.63 J
+C) 0.72 J
+D) 0.81 J
+E) 0.36 J
+F) 0.45 J
+G) 0.54 J
+H) 0.09 J
+I) 0.18 J
+J) 0.27 J
+
+Above are multiple-choice questions (with answers) related to physics.
+Simply respond with 'The answer is /option letter and value/.'",physics_mmlu,H,gemma2:27b,C,llama3-chatqa:8b,B,mistral:7b,D,qwen2.5:14b,E,phi4:14b,B,gemma3:27b,A
+"Question: One of the key features for making a differential diagnosis between bulimia nervosa and anorexia nervosa is:
+
+A) Use of laxatives
+B) Purging
+C) Fear of gaining weight
+D) Bingeing
+E) Excessive exercise
+F) All of the above
+G) Maintaining a normal body weight
+H) Overeating in short periods
+I) None of the above
+J) Self-imposed starvation
+
+Above are multiple-choice questions (with answers) related to psychology.
+Simply respond with 'The answer is /option letter and value/.'",psychology_mmlu,G,gemma2:27b,G,llama3-chatqa:8b,F,mistral:7b,D,qwen2.5:14b,G,phi4:14b,G,gemma3:27b,G
+"Question: Milgram (1965) found that participants in his study were more willing to administer electric shocks to another person when they couldn't see the victim and the victim couldn't see them. This ﬁnding is predicted by Zimbardo’s notion of:
+
+A) bystander effect.
+B) conformity.
+C) psychological reactance.
+D) self-perception.
+E) self-verification.
+F) groupthink.
+G) deindividuation.
+H) social facilitation.
+I) cognitive dissonance.
+J) pluralistic ignorance.
+
+Above are multiple-choice questions (with answers) related to psychology.
+Simply respond with 'The answer is /option letter and value/.'",psychology_mmlu,G,gemma2:27b,G,llama3-chatqa:8b,G,mistral:7b,G,qwen2.5:14b,G,phi4:14b,G,gemma3:27b,G
+"Question: While driving to school, Elise hears about a concert ticket giveaway on the radio. She has to be the seventh caller to win. While pulling over so that she can call in, she repeats the number to herself several times. Elise was using which of the following to remember the phone number?
+
+A) Maintenance rehearsal
+B) Chunking
+C) Long-term memory
+D) Iconic memory
+E) Elaborative rehearsal
+F) Selective attention
+G) Procedural memory
+H) Episodic memory
+I) Echoic memory
+J) Semantic memory
+
+Above are multiple-choice questions (with answers) related to psychology.
+Simply respond with 'The answer is /option letter and value/.'",psychology_mmlu,A,gemma2:27b,A,llama3-chatqa:8b,A,mistral:7b,I,qwen2.5:14b,A,phi4:14b,A,gemma3:27b,A
+"Question: The belief that a child's misbehavior has one of four goals — i.e., attention, revenge, power, or to display inadequacy — is most consistent with:
+
+A) Bandura's social learning theory.
+B) Skinner's operant conditioning theory.
+C) Maslow's hierarchy of needs theory.
+D) Beck’s cognitive-behavioral therapy.
+E) Pavlov's classical conditioning theory.
+F) Freud's psychoanalytic theory.
+G) Mahler’s object relations theory.
+H) Jung’s analytical psychology.
+I) Perls’s Gestalt therapy.
+J) Adler’s individual psychology
+
+Above are multiple-choice questions (with answers) related to psychology.
+Simply respond with 'The answer is /option letter and value/.'",psychology_mmlu,J,gemma2:27b,J,llama3-chatqa:8b,D,mistral:7b,J,qwen2.5:14b,J,phi4:14b,J,gemma3:27b,J
+"Question: Describe the three basic methods of measuring and analyzing thresholds.
+
+A) Method of Levels, Method of Average Error, Method of Standard Deviation
+B) Method of Constant Stimuli, Method of Right and Wrong Cases, Variability method
+C) Method of Approximation, Method of Differential Error, Method of Least Squares
+D) Method of Limits, Method of Comparative Error, Method of Estimation
+E) Method of Limits, Method of Median Error, Frequency method
+F) Method of Limits, Method of Constant Errors, Sequential method
+G) Method of Adjustments, Method of Minimum Error, Probability method
+H) Method of Approximation, Method of Comparison, Frequency method
+I) Method of Limits, Method of Average Error, Frequency method
+J) Method of Limits, Method of Average Error, Method of Maximum Likelihood
+
+Above are multiple-choice questions (with answers) related to psychology.
+Simply respond with 'The answer is /option letter and value/.'",psychology_mmlu,I,gemma2:27b,F,llama3-chatqa:8b,I,mistral:7b,I,qwen2.5:14b,I,phi4:14b,B,gemma3:27b,E
+"Question: After she used address stickers sent by a charity in the mail, Brittany felt obligated to mail a donation to the organization that sent the stickers. Brittany's behavior illustrates
+
+A) stereotyping
+B) the reciprocity norm
+C) the halo effect
+D) the bystander effect
+E) the door-in-the-face technique
+F) the cognitive dissonance theory
+G) the just-world phenomenon
+H) the self-serving bias
+I) the fundamental attribution error
+J) the mere exposure effect
+
+Above are multiple-choice questions (with answers) related to psychology.
+Simply respond with 'The answer is /option letter and value/.'",psychology_mmlu,B,gemma2:27b,B,llama3-chatqa:8b,B,mistral:7b,B,qwen2.5:14b,B,phi4:14b,B,gemma3:27b,B
+"Question: Find the standard deviation of the sample of measurements 1, 3, 7, 10, 14.
+
+A) 5.92
+B) 2.87
+C) 7.1
+D) 3.5
+E) 4.24
+F) 4.69
+G) 6.32
+H) 5.5
+I) 5.07
+J) 6.5
+
+Above are multiple-choice questions (with answers) related to psychology.
+Simply respond with 'The answer is /option letter and value/.'",psychology_mmlu,F,gemma2:27b,E,llama3-chatqa:8b,B,mistral:7b,I,qwen2.5:14b,E,phi4:14b,I,gemma3:27b,A
+"Question: Attribution theories provide a framework for the important types of information used to assess behavior. One theory describes how people identify explanations of people’s personal characteristics from behavioral evidence. This theory is ___________.
+
+A) Covariation model of attribution
+B) Implicit personality theory
+C) Self-perception theory
+D) Fundamental attribution error theory
+E) Attribution of harm
+F) Correspondent inference theory
+G) Stereotype content model
+H) Social cognition theory
+I) Achievement attribution
+J) Cognitive dissonance theory
+
+Above are multiple-choice questions (with answers) related to psychology.
+Simply respond with 'The answer is /option letter and value/.'",psychology_mmlu,F,gemma2:27b,F,llama3-chatqa:8b,F,mistral:7b,F,qwen2.5:14b,F,phi4:14b,F,gemma3:27b,F
+"Question: Of the following, the best predictor of a child’s post-divorce adjustment during the 2 years following divorce is the
+
+A) level of involvement of the non-custodial parent
+B) age of the child at the time of the divorce
+C) degree of continued conflict between the parents after the divorce
+D) degree of hostility during the divorce process
+E) residence of the child with the preferred parent
+F) child's academic performance before the divorce
+G) financial status of the parents after the divorce
+H) withdrawal of the more disturbed parent
+I) level of support from extended family
+J) frequency of the child's contact with friends after the divorce
+
+Above are multiple-choice questions (with answers) related to psychology.
+Simply respond with 'The answer is /option letter and value/.'",psychology_mmlu,C,gemma2:27b,C,llama3-chatqa:8b,B,mistral:7b,C,qwen2.5:14b,C,phi4:14b,C,gemma3:27b,C
+Which of the following is true about an intention tremor? Options: It is a symptom of Alzheimer's DiseaseIt is worsened by consuming alcoholIt is caused by a lesion in the frontal lobeIt is caused by damage to the spinal cordIt is an involuntary movement disorderIt is indicative of a cerebellar lesionIt is caused by Parkinson's DiseaseIt is worse at restDyscalculia is a common associationIt occurs only during sleep,health_mmlu,F,gemma2:27b,A,llama3-chatqa:8b,6,mistral:7b,A,qwen2.5:14b,A,phi4:14b,A,gemma3:27b,A
+"An oil-immersion microscope will resolve a set of 112,000 test lines per inch, using blue light of wavelength 4500 A^°. Find the numerical aperture. Options: 1.1910.8511.0910.6910.8911.3911.2500.9910.5810.792",physics_mmlu,H,gemma2:27b,1.39,llama3-chatqa:8b,1.191,mistral:7b,E,qwen2.5:14b,1.19,phi4:14b,1.9,gemma3:27b,1.19
+Which of the following molecules is a strong electrolyte when dissolved in water? Options: CH3COOHCO2O2H2ONH3CH4HC2H3O2HBrC6H12O6,chemistry_mmlu,H,gemma2:27b,HBr,llama3-chatqa:8b,HBr,mistral:7b,A,qwen2.5:14b,HBr,phi4:14b,A,gemma3:27b,HBr
+One of the key features for making a differential diagnosis between bulimia nervosa and anorexia nervosa is: Options: Use of laxativesPurgingFear of gaining weightBingeingExcessive exerciseAll of the aboveMaintaining a normal body weightOvereating in short periodsNone of the aboveSelf-imposed starvation,psychology_mmlu,G,gemma2:27b,A,llama3-chatqa:8b,F,mistral:7b,Purging,qwen2.5:14b,F,phi4:14b,A,gemma3:27b,A
+"This question refers to the following information.
+By what principle of reason then, should these foreigners send in return a poisonous drug? Without meaning to say that the foreigners harbor such destructive intentions in their hearts, we yet positively assert that from their inordinate thirst after gain, they are perfectly careless about the injuries they inflict upon us! And such being the case, we should like to ask what has become of that conscience which heaven has implanted in the breasts of all men? We have heard that in your own country opium is prohibited with the utmost strictness and severity. This is a strong proof that you know full well how hurtful it is to mankind. Since you do not permit it to injure your own country, you ought not to have this injurious drug transferred to another country, and above all others, how much less to the Inner Land! Of the products which China exports to your foreign countries, there is not one which is not beneficial to mankind in some shape or other.
+Lin Zexu, Chinese trade commissioner, letter to Queen Victoria, 1839
+Which of the outcomes listed below followed the delivery of Lin Zexu's letter? Options: The expulsion of all foreigners from Chinese territoryViolent uprisings on the part of China's pro-British Muslim minorityThe British government compensated China for the damages caused by the opium tradeChina and Britain entered into a period of peaceful coexistenceA successful ban of the opium trade in all Chinese territoriesThe British Crown ceded Hong Kong to ChinaQueen Victoria personally responded to Lin Zexu’s letter with a promise of changeChinese naval defeat and new trade terms more favorable to the WestThe British government issued a formal apology and stopped the opium tradeThe rise of a strong anti-opium movement in Britain",history_mmlu,H,gemma2:27b,E,llama3-chatqa:8b,E,mistral:7b,E,qwen2.5:14b,Unknown,phi4:14b,E,gemma3:27b,E
+"This question refers to the following information.
+O ye who believe! Strong drink and games of chance and idols… are only an infamy of Satan's handiwork. Leave it aside in order that ye may succeed.
+the Qur'an, Sura 5: 89
+When once you hear the roses are in bloom,
+Then is the time, my love, to pour the wine.
+the Rubáiyát of Omar Khayyám
+The tone of the first verse best reflects which of the following modes of religious discourse? Options: A call for personal sacrifice in the name of faithA sermon about respecting political authorityAn invitation to question traditional religious beliefsAn ecumenical call for religious toleranceA cautionary tale about the dangers of hedonismA mystical appeal to the divine in natureAn endorsement of joyful celebrationA philosophical discourse on the nature of sin and redemptionA puritanical injunction to adhere to a strict code of conductA spirited attempt to convert non-believers",history_mmlu,I,gemma2:27b,A,llama3-chatqa:8b,5,mistral:7b,A,qwen2.5:14b,A,phi4:14b,A,gemma3:27b,A
+"Of the following potential benefits, which is LEAST likely to be provided by the upgraded system? Options: Customers will receive instant solutions to their issues.Customers are likely to spend less time listening to information not relevant to their issue.Human representatives will not be needed to respond to some inquiries.Customers will be unable to mistakenly select the incorrect department for their particular issue.The system will automatically resolve all customer issues.The company will be able to provide a human representative for any incoming call.",computer science_mmlu,F,gemma2:27b,E,llama3-chatqa:8b,E,mistral:7b,E,qwen2.5:14b,E,phi4:14b,E,gemma3:27b,E
+"The following procedure is intended to return the number of times the value val appears in the list myList. The procedure does not work as intended.
+ Line 1: PROCEDURE countNumOccurences(myList, val)
+ Line 2: {
+ Line 3: FOR EACH item IN myList
+ Line 4: {
+ Line 5: count 0
+ Line 6: IF(item = val)
+ Line 7: {
+ Line 8: count count + 1
+ Line 9: }
+ Line 10: }
+ Line 11: RETURN(count)
+ Line 12:}
+ Which of the following changes can be made so that the procedure will work as intended? Options: Moving the statement in line 8 so that it appears between lines 9 and 10Changing line 1 to PROCEDURE countNumOccurences(val, myList)Changing line 6 to IF(item = count)Adding a new line after line 6 that states count = 0Moving the statement in line 5 so that it appears between lines 2 and 3Changing line 5 to count = 1Changing line 6 to IF(myList[item] = val)Moving the statement in line 11 so that it appears between lines 9 and 10Changing line 8 to count = count + valChanging line 8 to count = val + 1",computer science_mmlu,E,gemma2:27b,G,llama3-chatqa:8b,"2, 3, 4",mistral:7b,G,qwen2.5:14b,G,phi4:14b,G,gemma3:27b,A
+Craig says an actually infinite number of things _____. Options: cannot existcan be physically observedcan be counted one by oneis a concept beyond human comprehensiononly exists in mathematicscan only exist in theoryis meaninglessexists somewhereis possibleis a paradox,philosophy_mmlu,A,gemma2:27b,only exists in mathematics,llama3-chatqa:8b,E,mistral:7b,A,qwen2.5:14b,cannot exist,phi4:14b,A,gemma3:27b,A
+Wolf claims that morality: Options: is merely a cultural artifact.is not really relevant to our lives.provides a comprehensive guide to conduct.none of the above.,philosophy_mmlu,D,gemma2:27b,A,llama3-chatqa:8b,1,mistral:7b,A,qwen2.5:14b,E,phi4:14b,E,gemma3:27b,A
+"Plato's suggestion that knowledge is innate or remembered as a result of being triggered by experience is in response to a paradox he sets up for himself.  The paradox, now referred to as Meno's Paradox, has to do with the question of: Options: how anyone can recognize the correct answer to a question without already knowing the answer.how the soul can reincarnate if it carries no memory of past lives.how knowledge of the Forms can ever be anything other than a generalization of experience.how a person can remember anything about the realm of the Forms after the shock of being born into this world.how concepts bound to the realm of becoming have meaning only when associated with the realm of Being.how a person can possess knowledge without having been taught.how a person can forget something they once knew clearly.how it is possible to know something that one has not experienced.how knowledge can be both innate and learned at the same time.how the human mind can conceive of the Forms without physical representation.",philosophy_mmlu,A,gemma2:27b,A,llama3-chatqa:8b,A,mistral:7b,A,qwen2.5:14b,A,phi4:14b,A,gemma3:27b,A
+Which of the following is an example of a concurrent power? Options: The power to regulate commerce with foreign nationsThe printing and coining of moneyThe power to establish post officesThe process of naturalizationThe power to appoint ambassadors and other public ministers.The power to propose amendments to the ConstitutionThe power to establish a national bankThe levying of taxesThe power to declare warThe power to make laws necessary and proper for executing other powers,other_mmlu,H,gemma2:27b,E,llama3-chatqa:8b,E,mistral:7b,A,qwen2.5:14b,E,phi4:14b,E,gemma3:27b,G
+"The Magna Carta, signed in 1215, is associated with the reign of which English king? Options: [Henry II, Richard I, King John, Edward I]",history_mmlu,G,gemma2:27b,G,llama3-chatqa:8b,G,mistral:7b,G,qwen2.5:14b,G,phi4:14b,G,gemma3:27b,G
+"In computer networking, what does the acronym DNS stand for? Options: [Dynamic Network Service, Domain Name System, Data Numbering Standard, Digital Node Server]",computer science_mmlu,E,gemma2:27b,E,llama3-chatqa:8b,E,mistral:7b,E,qwen2.5:14b,E,phi4:14b,E,gemma3:27b,E
