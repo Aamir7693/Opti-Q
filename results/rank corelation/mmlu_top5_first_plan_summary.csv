@@ -1,0 +1,6 @@
+level,questions,top5_hit_rate,mean_top5_regret,questions_with_correct_candidate,selected_correct_when_correct_available
+0,100,0.9,0.1,53,0.8113207547169812
+1,100,0.84,0.16,67,0.7611940298507462
+2,100,0.82,0.18,73,0.7534246575342466
+3,100,0.84,0.16,80,0.8
+4,100,0.79,0.21,84,0.75

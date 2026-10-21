@@ -1,0 +1,6 @@
+level,queries_with_correct_candidate,correct_plan_retention_rate,mean_correct_candidate_recall
+0,53,1.0,0.8867924528301887
+1,67,1.0,1.0
+2,73,1.0,0.8856164383561644
+3,80,0.9875,0.760625
+4,84,0.9761904761904762,0.7972222222222223
